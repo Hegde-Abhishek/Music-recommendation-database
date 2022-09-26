@@ -8,12 +8,12 @@ a list of recommended songs based on the genre, song or artist chosen.
 
 Use-case for un-authorized users:
 
-Search songs and albums through database using input keywords.
-View recently added albums and its details.
-View custom music playlist and get recommendations based on it.
+1. Search songs and albums through database using input keywords.
+2. View recently added albums and its details.
+3. View custom music playlist and get recommendations based on it.
 
 Use-case for authorized users(admin):
 
-Can add and remove albums from the playlists and database.
-Add new music or albums to the database.
-The current authorized user or administrator can see the updates to the uploaded data.
+1. Can add and remove albums from the playlists and database.
+2. Add new music or albums to the database.
+3. The current authorized user or administrator can see the updates to the uploaded data.
