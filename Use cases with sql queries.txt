@@ -1,0 +1,114 @@
+1.) Find a tweet which mentions a song whose artist name is 'eminem'
+
+SELECT a.tweet_text,b.song_name from music.tweets a join music.songs b on a.song_id = b.song_id
+where a.tweet_text like '%Eminem%';
+
+Relational Algebra :
+π a . tweet_text, b . song_name
+ σ a . tweet_text LIKE "%Eminem%"
+  (ρ a tweets ⋈ a . song_id = b . song_id
+   ρ b songs)
+
+2.)search for a song from our database and find it in twitter tweets and show the number of re-tweets for that tweet.
+
+select a.tweet_text,b.song_name,b.song_artist,a.retweet from music.tweets a join music.songs b
+on a.song_id = b.song_id where a.tweet_text like '%Sweet%' ;
+
+Relational Algebra :
+π a . tweet_text, b . song_name, b . song_artist, a . retweet
+ σ a . tweet_text LIKE "%Sweet%"
+  (ρ a tweets ⋈ a . song_id = b . song_id
+   ρ b songs)
+
+3.) Fetch songs and retweets tweeted by spotify twitter handle and find similar results in your music database
+
+select a.tweet_text,b.song_name,b.song_artist,a.retweet from music.tweets a join music.songs b
+on a.song_id = b.song_id where a.twitter_handle like '%AM25spotify%';
+
+Relational Algebra :
+π a . tweet_text, b . song_name, b . song_artist, a . retweet
+ σ a . twitter_handle LIKE "%AM25spotify%"
+  (ρ a tweets ⋈ a . song_id = b . song_id
+   ρ b songs)
+
+4.)List the songs with the least number of tweets between 2022-11-1 between 2022-11-12.
+
+Select m.song_name, count(t.song_id) as count from songs m inner join tweets t on
+t.song_id=m.song_id group by m.song_name order by count
+limit 1;
+
+Relational Algebra : 
+π m . song_name, t . song_id
+ γ song_name,
+  (ρ m songs ⋈ t . song_id = m . song_id
+   ρ t tweets)
+
+
+
+5.) What are the top 10 songs with highest popular ratings and in English language?
+
+select song_name,song_popularity from music.songs
+where song_language = 'english' order by song_popularity desc limit 10;
+
+Relational Algebra
+τ song_popularity ↓
+ π song_name, song_popularity
+  σ song_language = "english" songs
+
+6.)How many unique artists are there in the database where genre is 'Pop'?
+
+select distinct name from artist a join songs b on a.name = b.song_artist
+where song_genre = 'Pop';
+
+Relational Algebra
+δ
+ π name
+  σ song_genre = "Pop"
+   (ρ a artist ⋈ a . name = b . song_artist
+    ρ b songs)
+
+7.)Name few artists whose name starts with 'M' and age is above 30?
+
+select distinct a.name from artist a join songs b on a.name = b.song_artist
+where a.name like 'M%' and age>30;
+
+Relational Algebra
+δ
+ π a . name
+  σ a . name LIKE "M%" AND age > 30
+   (ρ a artist ⋈ a . name = b . song_artist
+    ρ b songs)
+
+8.) List songs with rating above 80 and release year between 2000 and 2015
+
+select a.song_name from songs a join album b on a.song_album = b.name
+where song_popularity > 80 and b.Release_year between '2000' and '2015';
+
+Relational Algebra :
+π a . song_name
+ σ song_popularity > 80 AND ("2000" <= b . release_year AND b . release_year <= "2015")
+  (ρ a songs ⋈ a . song_album = b . name
+   ρ b album)
+
+9.)How many unique albums does artist 'Michael Jackson' have in the database?
+
+select  count(distinct song_album) as unique_albums from songs where song_artist = 'Michael Jackson'
+
+Relational Algebra
+π COUNT (\delta song_album) → unique_albums
+ γ COUNT (\delta song_album)
+  σ song_artist = "Michael Jackson" songs
+
+
+10.)return songs sung by Arijit Singh with record label 'T-series' and release year between 2013 and 2015
+select a.song_name,b.recordLabel,c.Release_year from songs a
+join artist b on b.name=a.song_artist  
+join album c on c.name=a.song_album
+where b.name = 'Arijit Singh' and b.recordLabel = 'T-series'  and c.Release_year between '2013' and '2015';
+
+Relational Algebra :
+π a . song_name, b . recordlabel, c . release_year
+ σ b . name = "Arijit Singh" AND b . recordlabel = "T-series" AND ("2013" <= c . release_year AND c . release_year <= "2015")
+  (ρ a songs ⋈ b . name = a . song_artist
+   ρ b artist ⋈ c . name = a . song_album
+    ρ c album)

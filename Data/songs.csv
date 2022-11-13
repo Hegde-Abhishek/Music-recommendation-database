@@ -1,0 +1,85 @@
+song_id,song_name,song_album,song_artist,song_genre,song_length,song_language,song_popularity
+1,Beat It,Thriller 25 Super Deluxe Edition,Michael Jackson,Pop,2.99,English,81
+2,Smooth Criminal - 2012 Remaster,Bad 25th Anniversary,Michael Jackson,Pop,2.98,English,79
+3,Gimme More,Blackout,Britney Spears,Pop,2.91,English,78
+4,Eye of the Tiger,Rocky IV,Survivor,Rock,2.84,English,76
+5,Everybody Wants To Rule The World,Songs From The Big Chair (Super Deluxe Edition),Tears For Fears,R&B,2.91,English,86
+6,Everybody Talks,Picture Show,Neon Trees,R&B,2.05,English,79
+7,Earned It (Fifty Shades Of Grey),Beauty Behind The Madness,The Weeknd,Pop,3.21,English,74
+8,In Da Club,Get Rich Or Die Tryin',50 Cent,Hip-Hop,2.24,English,82
+9,Black and Yellow,Rolling Papers,Wiz Khalifa,Rap,2.52,English,75
+10,Superman,The Eminem Show,"Eminem, Dina Rae",Hip-Hop,4.05,English,0
+11,In Da Club,Get Rich Or Die Tryin',50 Cent,Hip-Hop,2.24,English,75
+12,Candy Shop,The Massacre,"50 Cent, Olivia",Hip-Hop,2.42,English,80
+13,All We Have Is This Moment,All We Have Is This Moment,C. SHIROCK,R&B,2.99,English,9
+14,rockstar (feat. 21 Savage),beerbongs & bentleys,"Post Malone, 21 Savage",R&B,2.52,English,84
+15,Let Me Love You,Encore,"DJ Snake, Justin Bieber",Pop,2.38,English,49
+16,Blame (feat. John Newman),Motion,"Calvin Harris, John Newman",Electronic,2.46,English,76
+17,New Rules,Dua Lipa (Deluxe),Dua Lipa,Pop,2.42,English,80
+18,Around the World (La La La La La) - Radio Version,Planet Pop,"A Touch Of Class, Pete Konemann",Pop,2.48,English,67
+19,Not Afraid,Recovery,Eminem,Hip-Hop,2.87,English,80
+20,Love The Way You Lie,Recovery,"Eminem, Rihanna",Hip-Hop,3.05,English,82
+21,The Monster,The Marshall Mathers LP2,"Eminem, Rihanna",Hip-Hop,2.9,English,77
+22,Venom - Music From The Motion Picture,Venom (Music From The Motion Picture),Eminem,Hip-Hop,3.12,English,73
+23,Rap God,The Marshall Mathers LP2 (Deluxe),Eminem,Hip-Hop,4.21,English,77
+24,Sweet Dreams (Are Made of This) - Remastered,Sweet Dreams (Are Made Of This),"Eurythmics, Annie Lennox, Dave Stewart",Pop,2.51,English,82
+25,Funky Town,Paradas Continuas,Lipps Inc.,Funk,2.77,English,1
+26,Self Control,Self Control,Laura Branigan,Pop,2.85,English,72
+27,Kids In America,Kim Wilde,Kim Wilde,Rock,2.38,English,68
+28,Kids In America,Kim Wilde,Kim Wilde,Rock,2.38,English,68
+29,Africa,Toto IV,TOTO,Pop,3.42,English,82
+30,Billie Jean,Thriller,Michael Jackson,Pop,3.41,English,63
+31,Beat It,Thriller,Michael Jackson,Pop,2.99,English,61
+32,Careless Whisper,Ladies And Gentlemen... The Best Of George Michael,George Michael,Pop,3.47,English,79
+33,Self Control,Self Control,Laura Branigan,Pop,2.85,English,72
+34,Summer Of '69,Reckless (30th Anniversary / Deluxe Edition),Bryan Adams,Rock,2.5,English,81
+35,"Say You, Say Me",Dancing On The Ceiling (Expanded Edition),Lionel Richie,R&B,2.79,English,68
+36,I Wanna Dance with Somebody (Who Loves Me),Whitney,Whitney Houston,Pop,3.37,English,80
+37,La Isla Bonita,True Blue (Reissue),Madonna,Pop,2.81,English,73
+38,Man in the Mirror - 2012 Remaster,Bad 25th Anniversary,Michael Jackson,Pop,3.69,English,69
+39,Dirty Diana - 2012 Remaster,Bad 25th Anniversary,Michael Jackson,Pop,3.25,English,61
+40,...Baby One More Time,...Baby One More Time (Digital Deluxe Version),Britney Spears,Pop,2.44,English,78
+41,Livin' la Vida Loca,Ricky Martin,Ricky Martin,Pop,2.81,English,73
+42,"My Heart Will Go On - Love Theme from ""Titanic""",Let's Talk About Love,Céline Dion,Pop,3.24,English,0
+43,What I've Done,Minutes to Midnight,Linkin Park,Rock,2.38,English,79
+44,Smells Like Teen Spirit,Nevermind (Deluxe Edition),Nirvana,Rock,3.49,English,12
+45,Yeah! (feat. Lil Jon & Ludacris),Confessions (Expanded Edition),"Usher, Lil Jon, Ludacris",R&B,2.9,English,81
+46,Don't Cha,PCD,"The Pussycat Dolls, Busta Rhymes",Pop,3.15,English,66
+47,Don't Stop The Music,Good Girl Gone Bad: Reloaded,Rihanna,R&B,3.09,English,79
+48,4 Minutes (feat. Justin Timberlake & Timbaland),Celebration (double disc version),"Madonna, Justin Timberlake, Timbaland",Pop,2.2,English,70
+49,Kabhi Jo Baadal Barse,Jackpot,Arijit Singh,Bollywood,2.94,Hindi,59
+50,Phir Mohabbat,Murder 2,"Mohammed Irfan, Arijit Singh, Saim Bhat",Bollywood,3.82,Hindi,63
+51,Haareya,Meri Pyaari Bindu,"Sachin-Jigar, Arijit Singh, Priya Saraiya",Bollywood,2.49,Hindi,56
+52,Dil Ke Paas,Wajah Tum Ho,"Arijit Singh, Tulsi Kumar, Neuman Pinto",Bollywood,3.14,Hindi,45
+53,Sanam Re,Sanam Re,"Mithoon, Arijit Singh",Bollywood,3.57,Hindi,62
+54,Sooraj Dooba Hain,Roy,"Arijit Singh, Aditi Singh Sharma",Bollywood,3.07,Hindi,63
+55,Samjhawan,Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack),"Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal",Bollywood,3.12,Hindi,64
+56,Palat - Tera Hero Idhar Hai,Main Tera Hero,Arijit Singh,Bollywood,3.13,Hindi,50
+57,Ilahi,Yeh Jawaani Hai Deewani,"Pritam, Arijit Singh",Bollywood,2.65,Hindi,67
+58,Dilliwaali Girlfriend,Yeh Jawaani Hai Deewani,"Pritam, Arijit Singh, Sunidhi Chauhan",Bollywood,3.02,Hindi,62
+59,Just the Way You Are,Feelgood Love Songs,Bruno Mars,R&B,2.55,English,4
+60,Love The Way You Lie,Recovery,"Eminem, Rihanna",Hip-Hop,3.05,English,82
+61,TiK ToK,Animal (Expanded Edition),Kesha,Pop,2.31,English,80
+62,Dynamite,The Rokstarr Hits Collection,Taio Cruz,R&B,2.35,English,79
+63,Club Can't Handle Me (feat. David Guetta),Only One Flo (Part 1),"Flo Rida, David Guetta",R&B,2.71,English,75
+64,Like A G6,Race Hits 2022,"Far East Movement, The Cataracs, DEV",Pop,2.53,English,0
+65,Wavin' Flag,Troubadour,K'NAAN,Anthem,2.55,English,58
+66,Miami 2 Ibiza - Swedish House Mafia vs. Tinie Tempah,Disc-Overy,"Swedish House Mafia, Tinie Tempah",House,2.39,English,46
+67,Samjhawan,Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack),"Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal",Bollywood,3.12,Hindi,64
+68,"Enna Sona (From ""OK Jaanu"")","Enna Sona (From ""OK Jaanu"")","A.R. Rahman, Arijit Singh",Bollywood,2.47,Hindi,53
+69,"Channa Mereya (From ""Ae Dil Hai Mushkil"")","Channa Mereya (From ""Ae Dil Hai Mushkil"")","Pritam, Arijit Singh",Bollywood,3.35,Hindi,60
+70,"Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From ""Ae Dil Hai Mushkil""]","Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From ""Ae Dil Hai Mushkil""]","Pritam, Arijit Singh, Dj Kiran Kamath",Bollywood,2.75,Hindi,35
+71,Yaariyan (reprise),Cocktail,"Sunidhi Chauhan, Arijit Singh",Bollywood,3.63,Hindi,33
+72,Breakaway,Breakaway,Kelly Clarkson,Pop,2.74,English,64
+73,Toxic,In The Zone,Britney Spears,Pop,2.3,English,81
+74,Baby,My World 2.0,"Justin Bieber, Ludacris",Pop,2.48,English,80
+75,Around the World (La La La La La) - Radio Version,Planet Pop,"A Touch Of Class, Pete Konemann",Pop,2.48,English,67
+76,In Da Club,Get Rich Or Die Tryin',50 Cent,Hip-Hop,2.24,English,82
+77,Low (feat. T-Pain),Mail on Sunday,"Flo Rida, T-Pain",R&B,2.68,English,80
+78,Apologize - feat. One Republic,Shock Value,"Timbaland, OneRepublic",R&B,2.13,English,76
+79,Boom Boom Pow,THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version],Black Eyed Peas,Club,2.91,English,68
+80,Promiscuous,Loose,"Nelly Furtado, Timbaland",Pop,2.8,English,81
+81,Say It Right,Loose,Nelly Furtado,Pop,2.58,English,78
+82,Viva La Vida,Viva La Vida or Death and All His Friends,Coldplay,Pop,2.81,English,84
+83,Rock Your Body,Justified,Justin Timberlake,Rock,3.09,English,76
+84,Heads Will Roll - A-Trak Remix,Heads Will Roll (A-Trak Remix),"Yeah Yeah Yeahs, A-Trak",Club,4.44,English,68
