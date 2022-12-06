@@ -1,0 +1,59 @@
+NEW_USE_CASES for Assignment-3:
+
+Q1. List few songs and its artist: Eminem with album name 'Recovery' and release year '2010'.
+
+select distinct a.song_name,a.song_album,b.name,c.Release_year from songs a
+join artist b on b.name=a.song_artist  
+join album c on c.name=a.song_album
+where b.name = 'Eminem'  and c.Release_year = '2010';
+
+Q2. Show all songs in the database where Eminem has been a contributor.
+
+select  count(distinct song_name) as unique_contributions from songs where song_artist like '%Eminem%';
+
+Q3. List unique songs with rating less than 80 and release year is 1987
+
+select distinct a.song_name,b.release_year from songs a join album b on a.song_album = b.name
+where song_popularity < 80 and b.Release_year = '1987';
+
+Q4. What are the top 10 songs with highest popular ratings and artist name starts with 'M' and in English language?
+
+select song_name,song_popularity,song_artist from music.songs
+where song_language = 'english' and song_artist like 'M%' order by song_popularity desc limit 10;
+
+Q5. Display few artists and their age whose name starts with 'L' and age is above 40?
+
+select distinct a.name,a.age from artist a join songs b on a.name = b.song_artist
+where a.name like 'L%' and age>40; 
+
+Q6. List few songs and its artist: Michael Jackson with album name 'Thriller' and release year '1982'.
+
+select distinct a.song_name,a.song_artist,a.song_album,c.Release_year from songs a
+join artist b on b.name=a.song_artist  
+join album c on c.name=a.song_album
+where b.name = 'Michael Jackson'  and c.name = 'Thriller' and c.Release_year = '1982';
+
+Q7. What are the top 5 artists of all time, whose song_language is english and genre = 'Pop' based on highest popular ratings?
+
+select distinct song_artist from music.songs
+where song_language = 'English' and song_genre = 'Pop'
+order by song_popularity desc limit 5;
+
+
+Q8. Show some popular bollywood songs sung by 'Arijit Singh' with least popularity ratings;
+
+select distinct a.song_name,a.song_artist,a.song_popularity from songs a
+join artist b on b.name=a.song_artist  
+join album c on c.name=a.song_album
+where b.name = 'Arijit Singh'  and a.song_genre ='Bollywood' order by song_popularity asc;
+
+Q9. Display song name and its popularity where the number of times song played is greater than 9000.
+
+select distinct a.song_name,a.song_popularity from songs a
+join play_history b on a.song_id = b.song_id 
+where b.played_count>9000;
+
+Q10. List the songs with genre where played count is more than 5000
+
+select b.song_name,b.song_genre,c.played_count from music.songs b join music.play_history c
+on b.song_id = c.song_id where c.played_count > 5000 

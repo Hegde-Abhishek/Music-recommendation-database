@@ -1,0 +1,296 @@
+Song_Id,Song_Name,Artist_Name,Album_Name,Album_Artist_Name,Release_Year,Duration,Explicit,Popularity,Count_of_Plays
+1,Beat It,Michael Jackson,Thriller 25 Super Deluxe Edition,Michael Jackson,1982,4:18,FALSE,81,4680
+2,Smooth Criminal - 2012 Remaster,Michael Jackson,Bad 25th Anniversary,Michael Jackson,1987,4:18,FALSE,79,2055
+3,Gimme More,Britney Spears,Blackout,Britney Spears,2007,4:11,FALSE,78,2397
+4,Eye of the Tiger,Survivor,Rocky IV,Various Artists,1905,4:06,FALSE,76,7647
+5,Everybody Wants To Rule The World,Tears For Fears,Songs From The Big Chair (Super Deluxe Edition),Tears For Fears,1985,4:11,FALSE,86,9455
+6,Everybody Talks,Neon Trees,Picture Show,Neon Trees,2012,2:57,FALSE,78,2635
+7,Earned It (Fifty Shades Of Grey),The Weeknd,Beauty Behind The Madness,The Weeknd,2015,4:38,TRUE,74,2554
+8,In Da Club,50 Cent,Get Rich Or Die Tryin',50 Cent,2003,3:13,TRUE,82,7498
+9,Black and Yellow,Wiz Khalifa,Rolling Papers,Wiz Khalifa,2011,3:38,TRUE,75,7111
+11,In Da Club,50 Cent,Get Rich Or Die Tryin',50 Cent,2003,3:13,TRUE,75,2652
+12,Candy Shop,"50 Cent, Olivia",The Massacre,50 Cent,2005,3:29,TRUE,80,1283
+13,All We Have Is This Moment,C. SHIROCK,All We Have Is This Moment,C. SHIROCK,2020,4:18,FALSE,9,1767
+14,rockstar (feat. 21 Savage),"Post Malone, 21 Savage",beerbongs & bentleys,Post Malone,2018,3:38,TRUE,84,2757
+15,Let Me Love You,"DJ Snake, Justin Bieber",Encore,DJ Snake,2016,3:26,FALSE,49,8560
+16,Blame (feat. John Newman),"Calvin Harris, John Newman",Motion,Calvin Harris,2014,3:33,FALSE,76,2798
+17,New Rules,Dua Lipa,Dua Lipa (Deluxe),Dua Lipa,2017,3:29,FALSE,80,5967
+18,Around the World (La La La La La) - Radio Version,"A Touch Of Class, Pete Konemann",Planet Pop,A Touch Of Class,2000,3:35,FALSE,67,5263
+19,Not Afraid,Eminem,Recovery,Eminem,2010,4:08,TRUE,80,7407
+20,Love The Way You Lie,"Eminem, Rihanna",Recovery,Eminem,2010,4:23,TRUE,82,952
+21,The Monster,"Eminem, Rihanna",The Marshall Mathers LP2,Eminem,2013,4:10,TRUE,77,4701
+22,Venom - Music From The Motion Picture,Eminem,Venom (Music From The Motion Picture),Eminem,2018,4:30,TRUE,73,2388
+23,Rap God,Eminem,The Marshall Mathers LP2 (Deluxe),Eminem,2013,6:04,TRUE,77,7836
+24,Sweet Dreams (Are Made of This) - Remastered,"Eurythmics, Annie Lennox, Dave Stewart",Sweet Dreams (Are Made Of This),"Eurythmics, Annie Lennox, Dave Stewart",1983,3:37,FALSE,82,5574
+25,Funky Town,Lipps Inc.,Paradas Continuas,Various Artists,2009,3:59,FALSE,1,2383
+26,Self Control,Laura Branigan,Self Control,Laura Branigan,1905,4:06,FALSE,72,7602
+27,Kids In America,Kim Wilde,Kim Wilde,Kim Wilde,1905,3:26,FALSE,68,535
+28,Kids In America,Kim Wilde,Kim Wilde,Kim Wilde,1905,3:26,FALSE,68,2541
+29,Africa,TOTO,Toto IV,TOTO,1982,4:56,FALSE,82,7066
+30,Billie Jean,Michael Jackson,Thriller,Michael Jackson,1982,4:54,FALSE,63,2566
+31,Beat It,Michael Jackson,Thriller,Michael Jackson,1982,4:18,FALSE,61,4103
+32,Careless Whisper,George Michael,Ladies And Gentlemen... The Best Of George Michael,George Michael,1998,5:00,FALSE,79,6562
+33,Self Control,Laura Branigan,Self Control,Laura Branigan,1905,4:06,FALSE,72,2434
+34,Summer Of '69,Bryan Adams,Reckless (30th Anniversary / Deluxe Edition),Bryan Adams,1984,3:36,FALSE,81,9348
+35,"Say You, Say Me",Lionel Richie,Dancing On The Ceiling (Expanded Edition),Lionel Richie,1905,4:01,FALSE,68,7545
+36,I Wanna Dance with Somebody (Who Loves Me),Whitney Houston,Whitney,Whitney Houston,1987,4:51,FALSE,80,3794
+37,La Isla Bonita,Madonna,True Blue (Reissue),Madonna,1986,4:03,FALSE,73,7328
+38,Man in the Mirror - 2012 Remaster,Michael Jackson,Bad 25th Anniversary,Michael Jackson,1987,5:19,FALSE,69,75
+39,Dirty Diana - 2012 Remaster,Michael Jackson,Bad 25th Anniversary,Michael Jackson,1987,4:41,FALSE,61,3011
+40,...Baby One More Time,Britney Spears,...Baby One More Time (Digital Deluxe Version),Britney Spears,1999,3:31,FALSE,78,9469
+41,Livin' la Vida Loca,Ricky Martin,Ricky Martin,Ricky Martin,1905,4:03,FALSE,73,3371
+43,What I've Done,Linkin Park,Minutes to Midnight,Linkin Park,2007,3:26,FALSE,79,7594
+44,Smells Like Teen Spirit,Nirvana,Nevermind (Deluxe Edition),Nirvana,1991,5:02,FALSE,11,4557
+45,Yeah! (feat. Lil Jon & Ludacris),"Usher, Lil Jon, Ludacris",Confessions (Expanded Edition),Usher,2004,4:10,FALSE,81,4530
+46,Don't Cha,"The Pussycat Dolls, Busta Rhymes",PCD,The Pussycat Dolls,2005,4:32,FALSE,66,1774
+47,Don't Stop The Music,Rihanna,Good Girl Gone Bad: Reloaded,Rihanna,2008,4:27,FALSE,79,4119
+48,4 Minutes (feat. Justin Timberlake & Timbaland),"Madonna, Justin Timberlake, Timbaland",Celebration (double disc version),Madonna,2009,3:10,FALSE,70,9537
+49,Kabhi Jo Baadal Barse,Arijit Singh,Jackpot,Various Artists,2013,4:14,FALSE,59,5007
+50,Phir Mohabbat,"Mohammed Irfan, Arijit Singh, Saim Bhat",Murder 2,"Harshit Saxena, Sangeet & Siddharth, Mithoon",2011,5:30,FALSE,63,1733
+51,Haareya,"Sachin-Jigar, Arijit Singh, Priya Saraiya",Meri Pyaari Bindu,Sachin-Jigar,2017,3:35,FALSE,56,3776
+52,Dil Ke Paas,"Arijit Singh, Tulsi Kumar, Neuman Pinto",Wajah Tum Ho,Various Artists,2016,4:31,FALSE,45,3469
+53,Sanam Re,"Mithoon, Arijit Singh",Sanam Re,Various Artists,2016,5:09,FALSE,62,1097
+54,Sooraj Dooba Hain,"Arijit Singh, Aditi Singh Sharma",Roy,"Amaal Mallik, Ankit Tiwari, Meet Bros Anjjan",2015,4:25,FALSE,63,8580
+55,Samjhawan,"Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal",Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack),Various Artists,2014,4:29,FALSE,64,9149
+56,Palat - Tera Hero Idhar Hai,Arijit Singh,Main Tera Hero,Sajid-Wajid,2014,4:31,FALSE,50,8631
+57,Ilahi,"Pritam, Arijit Singh",Yeh Jawaani Hai Deewani,Pritam,2013,3:49,FALSE,67,9816
+58,Dilliwaali Girlfriend,"Pritam, Arijit Singh, Sunidhi Chauhan",Yeh Jawaani Hai Deewani,Pritam,2013,4:21,FALSE,62,5446
+59,Just the Way You Are,Bruno Mars,Feelgood Love Songs,Various Artists,2022,3:41,FALSE,44,3858
+60,Love The Way You Lie,"Eminem, Rihanna",Recovery,Eminem,2010,4:23,TRUE,82,9033
+61,TiK ToK,Kesha,Animal (Expanded Edition),Kesha,2010,3:20,FALSE,80,6026
+62,Dynamite,Taio Cruz,The Rokstarr Hits Collection,Taio Cruz,2010,3:23,FALSE,79,2238
+63,Club Can't Handle Me (feat. David Guetta),"Flo Rida, David Guetta",Only One Flo (Part 1),Flo Rida,2010,3:55,FALSE,75,6227
+64,Like A G6,"Far East Movement, The Cataracs, DEV",Race Hits 2022,Various Artists,2021,3:39,FALSE,41,7742
+65,Wavin' Flag,K'NAAN,Troubadour,K'NAAN,1905,3:41,FALSE,58,6792
+66,Miami 2 Ibiza - Swedish House Mafia vs. Tinie Tempah,"Swedish House Mafia, Tinie Tempah",Disc-Overy,Tinie Tempah,2010,3:26,TRUE,46,7951
+67,Samjhawan,"Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal",Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack),Various Artists,2014,4:29,FALSE,64,6379
+68,"Enna Sona (From ""OK Jaanu"")","A.R. Rahman, Arijit Singh","Enna Sona (From ""OK Jaanu"")","A.R. Rahman, Arijit Singh",2017,3:34,FALSE,53,932
+69,"Channa Mereya (From ""Ae Dil Hai Mushkil"")","Pritam, Arijit Singh","Channa Mereya (From ""Ae Dil Hai Mushkil"")","Pritam, Arijit Singh",2016,4:49,FALSE,60,8445
+70,"Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From ""Ae Dil Hai Mushkil""]","Pritam, Arijit Singh, Dj Kiran Kamath","Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From ""Ae Dil Hai Mushkil""]","Pritam, Arijit Singh, Dj Kiran Kamath",2016,3:57,FALSE,35,7944
+71,Yaariyan (reprise),"Sunidhi Chauhan, Arijit Singh",Cocktail,Pritam,2012,5:14,FALSE,33,2490
+72,Breakaway,Kelly Clarkson,Breakaway,Kelly Clarkson,1905,3:57,FALSE,64,9177
+73,Toxic,Britney Spears,In The Zone,Britney Spears,2003,3:19,FALSE,81,2777
+74,Baby,"Justin Bieber, Ludacris",My World 2.0,Justin Bieber,2010,3:34,FALSE,80,1022
+75,Around the World (La La La La La) - Radio Version,"A Touch Of Class, Pete Konemann",Planet Pop,A Touch Of Class,2000,3:35,FALSE,67,5660
+76,In Da Club,50 Cent,Get Rich Or Die Tryin',50 Cent,2003,3:13,TRUE,82,7888
+77,Low (feat. T-Pain),"Flo Rida, T-Pain",Mail on Sunday,Flo Rida,2008,3:51,FALSE,80,5196
+78,Apologize - feat. One Republic,"Timbaland, OneRepublic",Shock Value,Timbaland,2007,3:04,FALSE,76,8496
+79,Boom Boom Pow,Black Eyed Peas,THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version],Black Eyed Peas,2009,4:11,TRUE,68,8234
+80,Promiscuous,"Nelly Furtado, Timbaland",Loose,Nelly Furtado,2006,4:02,FALSE,81,4592
+81,Say It Right,Nelly Furtado,Loose,Nelly Furtado,2006,3:43,FALSE,78,9037
+82,Viva La Vida,Coldplay,Viva La Vida or Death and All His Friends,Coldplay,2008,4:02,FALSE,84,2354
+83,Rock Your Body,Justin Timberlake,Justified,Justin Timberlake,2002,4:27,FALSE,76,5425
+84,Heads Will Roll - A-Trak Remix,"Yeah Yeah Yeahs, A-Trak",Heads Will Roll (A-Trak Remix),Yeah Yeah Yeahs,2009,6:24,FALSE,68,7843
+85,More Than You Know,Axwell /\ Ingrosso,More Than You Know,"Axwell /\ Ingrosso, Axwell, Sebastian Ingrosso",2017,3:23,FALSE,79,2713
+86,GUILTY,Keaton Rich,GUILTY,Keaton Rich,2022,3:04,FALSE,17,2788
+87,"Ooh Wee (feat. Ghostface Killah, Nate Dogg, Trife & Saigon)","Mark Ronson, Ghostface Killah, Nate Dogg, Trife, Saigon",Here Comes The Fuzz,Mark Ronson,2003,3:30,TRUE,55,4881
+88,Outta Ya Mind,Nissa Seych,Outta Ya Mind,Nissa Seych,2022,2:41,FALSE,8,8128
+89,Funky Sensation,"Disclosure, Gwen McCrae",Moonlight,Disclosure,2018,3:36,FALSE,48,1953
+90,Back In Place,Magnus Ferrell,Back In Place,Magnus Ferrell,2022,3:01,FALSE,23,6052
+91,Where Did You Go? (feat. MNEK),"Jax Jones, MNEK",Where Did You Go (feat. MNEK),"Jax Jones, MNEK",2022,2:58,FALSE,81,7499
+92,under the rug,ryn,under the rug,ryn,2022,2:58,FALSE,11,6527
+94,Sick Kisses,Liam Barrack,Sick Kisses,Liam Barrack,2022,3:34,TRUE,10,6033
+95,Never Together (Kastra Remix),"GT_Ofice, Kastra",Never Together (Kastra Remix),"GT_Ofice, Kastra",2022,2:40,FALSE,45,1921
+96,Great Balls Of Fire,Jerry Lee Lewis,Great Balls Of Fire,Various Artists,1989,2:33,FALSE,63,6100
+97,Perks,Bibi Gold,Perks,Bibi Gold,2022,2:49,FALSE,8,7776
+98,(Your Love Keeps Lifting Me) Higher & Higher,Jackie Wilson,Higher And Higher,Jackie Wilson,1905,2:59,FALSE,71,9963
+99,Real,Great Good Fine Ok,Real,Great Good Fine Ok,2021,3:50,FALSE,24,5883
+100,Me and Julio Down by the Schoolyard,Paul Simon,Paul Simon,Paul Simon,1972,2:45,FALSE,72,3489
+101,Wait That's My Shirt,The Thick,Ms. Sundown,The Thick,2018,3:02,TRUE,7,5916
+102,I See a Dip,Polyplastic,Medium Complications,Polyplastic,2022,3:36,FALSE,8,8775
+103,Should She Stay,Mother Culture,Should She Stay,Mother Culture,2022,3:55,TRUE,21,5335
+104,Rhythm Of The Night,DeBarge,Rhythm Of The Night,DeBarge,1905,3:49,FALSE,64,4721
+105,Hey!,PEPTALK,Hey!,PEPTALK,2022,2:29,FALSE,31,8546
+106,Mister Burns,KYTES,Mister Burns,KYTES,2022,2:35,FALSE,50,2302
+107,Brown Eyed Girl,Van Morrison,Blowin' Your Mind!,Van Morrison,#VALUE!,3:03,FALSE,79,6809
+108,End of the Lost Summer,Gabe Lopez,End of the Lost Summer,Gabe Lopez,2020,3:41,TRUE,16,2090
+109,Sing Hallelujah!,Dr. Alban,The Very Best Of 1990 - 1997,Dr. Alban,1997,4:01,FALSE,5,1074
+110,Starting Now,Peyton Shay,Badder Than The Bad Boys,Peyton Shay,2022,3:18,FALSE,17,6588
+111,September,"Earth\, Wind & Fire","The Best Of Earth, Wind & Fire Vol. 1","Earth\, Wind & Fire",1978,3:35,FALSE,82,3991
+112,La La La,"Superdream, Clem Beatz, Miae",La La La,"Superdream, Clem Beatz, Miae",2022,2:59,FALSE,37,7110
+113,Gettin' Jiggy Wit It,Will Smith,Big Willie Style,Will Smith,1997,3:48,FALSE,71,4884
+114,Magic Man,"Balduin, Wolfgang Lohr, J Fitz",Magic Man,"Balduin, Wolfgang Lohr",2022,3:22,FALSE,45,8089
+115,Love Generation - Radio Edit,"Bob Sinclar, Gary Pine",Love Generation (Radio Edit),Bob Sinclar,2005,3:25,FALSE,67,5498
+116,Lovin' Yourself,Petting Zoo,Lovin' Yourself,Petting Zoo,2022,2:32,TRUE,12,5801
+117,All We Got,LOVETA,All We Got,LOVETA,2022,3:54,FALSE,23,7347
+118,Blame It on the Boogie,The Jacksons,Destiny,The Jacksons,1978,3:34,FALSE,70,7929
+119,All I've Got to Say,Jake Hays,All I've Got to Say,Jake Hays,2022,3:57,FALSE,27,2391
+120,Plage,Crystal Fighters,Star of Love,Crystal Fighters,2010,3:50,FALSE,51,4364
+121,Counting Sheep,Harry Cleverdon,Counting Sheep,Harry Cleverdon,2022,3:00,FALSE,18,674
+122,White Sky,Vampire Weekend,Contra,Vampire Weekend,2010,2:59,FALSE,44,9296
+123,I Wish I Understood,ghost.,I Wish I Understood,ghost.,2022,3:04,FALSE,9,6780
+124,Blow That Smoke (feat. Tove Lo),"Major Lazer, Tove Lo",Blow That Smoke (feat. Tove Lo),"Major Lazer, Tove Lo",2018,3:43,FALSE,43,841
+125,Too Good To End,Qwiet Type,Too Good To End,Qwiet Type,2022,2:40,FALSE,23,1284
+126,Walk Of Life,Dire Straits,Brothers In Arms,Dire Straits,1985,4:10,FALSE,3,3198
+127,Somebody,Van Siian,Somebody,Van Siian,2022,3:18,FALSE,6,3040
+128,You & I,Crystal Fighters,Cave Rave,Crystal Fighters,2013,3:30,FALSE,44,2121
+129,The Other Way,"Bastiqe, Encure",The Other Way,"Bastiqe, Encure",2021,2:35,FALSE,26,9973
+130,You Can Call Me Al,Paul Simon,Graceland (25th Anniversary Deluxe Edition),Paul Simon,1986,4:40,FALSE,75,806
+131,What Doesn’t Kill You Mutates and Tries Again,iamnotshane,What Doesn’t Kill You Mutates and Tries Again,iamnotshane,2022,2:56,FALSE,51,7018
+132,Summer Feeling,"Matoma, Jonah Kagen",Summer Feeling,"Matoma, Jonah Kagen",2021,3:01,FALSE,67,7543
+133,W'adom,"JVS, BRYAN THE MENSAH",W'adom,JVS,2021,3:35,FALSE,21,4255
+134,Cabin Fever,I am Korny,Cabin Fever,I am Korny,2022,3:08,FALSE,35,7671
+135,A-Punk,Vampire Weekend,Vampire Weekend,Vampire Weekend,2008,2:18,FALSE,69,8505
+136,Devil in Disguise,EMM,RUBY,EMM,2020,3:25,FALSE,53,6389
+137,Millionaire,"Kelis, André 3000",Tasty,Kelis,2003,3:45,FALSE,58,8540
+138,CREW,Ju Kaia,CREW,Ju Kaia,2022,2:51,FALSE,28,1103
+139,Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,"Daft Punk, Pharrell Williams, Nile Rodgers",Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Radio Edit],Daft Punk,2013,4:08,FALSE,81,802
+141,End All My Days,justyourfriend,End All My Days,justyourfriend,2022,3:11,FALSE,24,4587
+142,Let's Get Loud,Jennifer Lopez,On The 6,Jennifer Lopez,1999,3:58,FALSE,68,852
+143,Disco in Paris,Saint Rene,Disco In Paris,Saint Rene,2022,2:25,FALSE,24,3262
+144,Muchacha,"Gente De Zona, Becky G",Muchacha,"Gente De Zona, Becky G",2020,3:21,FALSE,57,9504
+145,Lost in You,Curtis Lowe,Lost in You,Curtis Lowe,2020,4:07,FALSE,21,3164
+146,Dancing in the Moonlight,Toploader,Onka's Big Moka,Toploader,1905,3:53,FALSE,77,1779
+147,Mama Told Me,Emily + Shawn,Mama Told Me,Emily + Shawn,2022,2:28,FALSE,7,3663
+148,"Yo x Ti, Tu x Mi","ROSALÍA, Ozuna","Yo x Ti, Tu x Mi","ROSALÍA, Ozuna",2019,3:21,FALSE,74,759
+149,Uber King,Champion The Boy,Uber King,Champion The Boy,2022,3:46,FALSE,10,4526
+150,21,Zion Isaiah,21,Zion Isaiah,2022,3:08,FALSE,12,1640
+151,Wake Me Up,Avicii,TRUE,Avicii,2013,4:07,FALSE,4,3132
+152,Miami,Will Smith,Big Willie Style,Will Smith,1997,3:18,FALSE,70,3851
+154,One More Day In Paradise,"Jimmy Cloud, Willy Sinclair",One More Day In Paradise,Jimmy Cloud,2022,3:37,FALSE,20,6931
+155,Funky Town,ACRAZE,Funky Town,ACRAZE,2021,2:37,FALSE,55,3682
+156,Flowers Need Rain,"Preston Pablo, Banx & Ranx",Flowers Need Rain,"Preston Pablo, Banx & Ranx",2022,2:48,FALSE,72,9249
+157,Blinding Lights,The Weeknd,Blinding Lights,The Weeknd,2019,3:22,FALSE,18,6453
+158,Glad to be Alive,"Doppe & Kokke, Justin Erinn",Glad to be Alive,"Doppe & Kokke, Justin Erinn",2022,3:03,FALSE,24,6309
+159,STAY (with Justin Bieber),"The Kid LAROI, Justin Bieber",F*CK LOVE 3: OVER YOU,The Kid LAROI,2021,2:22,TRUE,86,6351
+160,Best Life,KOYOTIE,Best Life,KOYOTIE,2018,3:00,FALSE,22,9958
+161,Life Is Strange,Matt Hartke,Life Is Strange,Matt Hartke,2022,3:03,FALSE,12,6970
+162,Not For Me,Alyssa & Gia,Not For Me,Alyssa & Gia,2022,2:52,FALSE,23,8767
+163,Like This,M I R Ó U X,Like This,M I R Ó U X,2022,3:05,FALSE,38,1590
+164,Daydream,Sindresu,Daydream,Sindresu,2022,3:16,FALSE,28,9542
+166,Last Night a D.J. Saved My Life,Indeep,A Night to Remember (Mixed By Tony Okungbowa & Jojoflores),Various Artists,2012,4:13,FALSE,59,1270
+167,Latch,"Disclosure, Sam Smith",Settle (Special Edition),Disclosure,2013,4:16,FALSE,75,573
+168,Life Goes On,"Ricii Lompeurs, Francesco Ray",Life Goes On,"Ricii Lompeurs, Francesco Ray",2022,3:10,FALSE,35,2137
+169,Better Man,PIB,Better Man,PIB,2022,2:36,FALSE,36,7479
+170,Rock DJ,Robbie Williams,Sing When You're Winning,Robbie Williams,2000,4:19,FALSE,69,4806
+171,Do You?,"Cats-22, Ana Roze",Do You?,Cats-22,2022,2:56,FALSE,11,9685
+172,Family,"The Chainsmokers, Kygo",World War Joy,The Chainsmokers,2019,3:15,FALSE,60,5594
+173,Stick With You,Hunter Falls,Stick With You,Hunter Falls,2022,3:13,FALSE,6,1822
+174,Jetlag,"Cymo, Treetalk",Jetlag,"Cymo, Treetalk",2022,2:24,TRUE,22,6071
+175,Liki Tiki,"Kes, J Perry, Michael Brun",Liki Tiki,"Kes, J Perry, Michael Brun",2022,3:15,FALSE,45,1993
+176,We Were Liars (feat. Joel Sundkvist),"Janji, Joel Sundkvist",We Were Liars (feat. Joel Sundkvist),"Janji, Joel Sundkvist",2022,3:34,FALSE,20,1661
+177,Fall In Love,Kenny Sharp,Fall In Love,Kenny Sharp,2021,2:57,FALSE,25,8771
+178,Mr. Sandman - Electro Swing Mix,"Betty Booom, La PetitOrchestre",Mr. Sandman,"Betty Booom, La PetitOrchestre",2021,2:54,FALSE,37,3935
+179,Long Way Down,Coyote Island,Origin Stories,Coyote Island,2022,2:53,FALSE,11,6942
+180,Make Swing Great Again,"Deladap, Wolfgang Lohr, Melinda Stoika",Make Swing Great Again,"Deladap, Wolfgang Lohr",2020,3:24,FALSE,31,473
+181,"Don't You Need Somebody (feat. Enrique Iglesias, R. City, Serayah & Shaggy)","RedOne, Enrique Iglesias, R. City, Serayah, Shaggy","Don't You Need Somebody (feat. Enrique Iglesias, R. City, Serayah & Shaggy)",RedOne,2016,3:28,FALSE,57,1404
+182,THATS WHAT I WANT,Lil Nas X,MONTERO,Lil Nas X,2021,2:24,TRUE,85,593
+183,Rapture - Avicii New Generation Mix,Nadia Ali,Queen of Clubs Trilogy: Onyx Edition,Nadia Ali,2010,3:42,FALSE,54,4538
+184,Around the World (La La La La La) - Radio Version,"A Touch Of Class, Pete Konemann",Planet Pop,A Touch Of Class,2000,3:35,FALSE,68,1011
+186,Rise Up,Yves Larock,Rise Up (The Remixes),Yves Larock,2015,7:33,FALSE,38,3044
+188,Be My Lover,La Bouche,Best Of La Bouche feat. Melanie Thornton (feat. Melanie Thornton),La Bouche,2003,4:01,FALSE,67,4133
+189,Roses - Imanbek Remix,"SAINt JHN, Imanbek",Roses (Imanbek Remix),"SAINt JHN, Imanbek",2019,2:57,TRUE,80,2002
+190,Your Love (9PM),"ATB, Topic, A7S",Your Love (9PM),"ATB, Topic, A7S",2021,2:30,FALSE,62,511
+191,Play That Track,"Blinded Hearts, Lucifer",Play That Track,"Blinded Hearts, Lucifer",2021,2:33,FALSE,49,3666
+192,Shake It,B'Bach,Shake It,B'Bach,2021,2:33,FALSE,31,8468
+194,Endorphyn,Julian Meinke,Extatic,Julian Meinke,2021,6:49,FALSE,2,8051
+195,Dopamyn,Julian Meinke,Extatic,Julian Meinke,2021,7:18,FALSE,8,5094
+196,It's a Game,Sharmystic,It's a Game,Sharmystic,2020,2:24,FALSE,21,1433
+197,It's Total Dangerous,Benjamin Stahl,It's Total Dangerous,Benjamin Stahl,2021,5:27,FALSE,8,4372
+198,Progresiv - Ross Geldart Remix,"Smart Wave, Ross Geldart",Progresiv,Smart Wave,2021,6:50,FALSE,2,1470
+202,Right Now,Achilles,Right Now,Achilles,2021,3:09,FALSE,6,5507
+203,Rapture (Soulside Remix Made Edit Remastered) [feat. Nadia Ali],"iio, Nadia Ali",American Ambient (feat. Nadia Ali),iio,2011,3:52,FALSE,32,6614
+204,Rapture (Soulside Remix) [feat. Nadia Ali],"iio, Nadia Ali","Rapture Reconstruction, Platinum Edition (feat. Nadia Ali)",iio,2008,6:41,FALSE,29,3320
+205,Rapture - Avicii New Generation Mix,"Nadia Ali, Avicii",10 Years Armada,Various Artists,2013,3:38,FALSE,36,1325
+206,Rapture (Armin Van Buuren Remix Remastered) [feat. Nadia Ali],"iio, Nadia Ali",Rapture (feat. Nadia Ali) [Armin Van Buuren Remix Remastered],iio,2011,9:23,FALSE,31,3461
+207,Rapture - Gareth Emery Extended Mix,Nadia Ali,Queen of Clubs Trilogy: Diamond Edition (Extended Mixes),Nadia Ali,2010,7:16,FALSE,37,5041
+208,Get Out - San Sebastian Mix,"DJ Jose, ROMBE4T, San Sebastian",Get Out (San Sebastian Mix),"DJ Jose, ROMBE4T, San Sebastian",2020,5:10,FALSE,23,104
+209,Pressure (feat. Tove Lo),"Martin Garrix, Tove Lo",Pressure (feat. Tove Lo),"Martin Garrix, Tove Lo",2021,2:24,FALSE,69,4604
+210,Tidal Wave,Jacob Browne,Tidal Wave,Jacob Browne,2020,2:39,FALSE,24,7391
+211,Stay the Night,"Karim Naas, KTK",Stay the Night,Karim Naas,2020,3:16,FALSE,8,3604
+212,Ab To Forever,"Vishal-Shekhar, KK, Shreya Ghoshal, Vishal Dadlani, Javed Akhtar",Ta Ra Rum Pum,Vishal-Shekhar,2007,5:02,FALSE,52,2549
+213,Brothers Anthem,"Ajay-Atul, Vishal Dadlani",Brothers (Original Motion Picture Soundtrack),Ajay-Atul,2015,5:54,FALSE,59,2497
+214,Tujhe Bhula Diya,"Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak",Anjaana Anjaani,Vishal-Shekhar,2010,4:39,FALSE,68,4177
+215,"Neele Neele Ambar Par - Version, 1",Nitin Bali,Neele Neele Ambar Par,Nitin Bali,2002,3:54,FALSE,38,6716
+216,Megamix,R.I.O.,Megamix,R.I.O.,2013,8:16,FALSE,46,1471
+218,Scooby Doo Pa Pa (Remix),"Dj Kass, Pitbull",Scooby Doo Pa Pa (Remix) - Single,"Dj Kass, Pitbull",2018,2:57,TRUE,39,1722
+219,Scooby Doo Pa Pa,Dj Kass,Scooby Doo Pa Pa,Dj Kass,2018,2:26,FALSE,55,5954
+220,Boom Boom,"RedOne, Daddy Yankee, French Montana, Dinah Jane",Boom Boom,"RedOne, Daddy Yankee, French Montana",2017,4:08,FALSE,43,3015
+222,DESIRE,VEME,DESIRE,VEME,2020,3:41,FALSE,4,9234
+223,Ldn - SW11 Mix,Valerio Reali,Ldn,Valerio Reali,2020,6:59,FALSE,3,968
+225,Now or Never,Matisse & Sadko,Now or Never,Matisse & Sadko,2020,2:52,FALSE,34,5129
+226,100 Percent,"Truevined, Mikeomania",100 Percent,Truevined,2020,2:32,FALSE,4,3417
+227,Bright Side,Mike Spinx,Bright Side,Mike Spinx,2020,8:03,FALSE,11,423
+228,Polaris,Dee Montero,In The Wild / Polaris,Dee Montero,2018,4:43,FALSE,10,1513
+229,Ouddance,Pharonic Electronic,Ouddance,Pharonic Electronic,2019,4:00,FALSE,14,796
+231,Billie Jean,Michael Jackson,Thriller 25 Super Deluxe Edition,Michael Jackson,2008,4:54,FALSE,83,3399
+232,Something Just Like This,"The Chainsmokers, Coldplay",Memories...Do Not Open,The Chainsmokers,2017,4:07,FALSE,84,2681
+233,Don't Let Me Down,"The Chainsmokers, Daya",Don't Let Me Down,The Chainsmokers,2016,3:28,FALSE,80,9991
+234,"Give Me Everything (feat. Ne-Yo, Afrojack & Nayer)","Pitbull, Ne-Yo, Afrojack, Nayer",Planet Pit (Deluxe Version),Pitbull,2011,4:12,FALSE,81,5489
+235,Let Me Love You,"DJ Snake, Justin Bieber",Encore,DJ Snake,2016,3:26,FALSE,83,2849
+236,New Rules,Dua Lipa,Dua Lipa (Deluxe),Dua Lipa,2017,3:29,FALSE,80,8663
+237,Wake Me Up,Avicii,TRUE,Avicii,2013,4:07,FALSE,4,330
+238,Sweet but Psycho,Ava Max,Sweet but Psycho,Ava Max,2018,3:07,FALSE,5,7572
+239,Blame (feat. John Newman),"Calvin Harris, John Newman",Motion,Calvin Harris,2014,3:33,FALSE,76,4255
+240,Cheap Thrills,Sia,This Is Acting,Sia,2016,3:32,FALSE,78,461
+241,Havana (feat. Young Thug),"Camila Cabello, Young Thug",Camila,Camila Cabello,2018,3:37,FALSE,80,1260
+242,24K Magic,Bruno Mars,24K Magic,Bruno Mars,2016,3:46,FALSE,79,8206
+243,Can't Hold Us (feat. Ray Dalton),"Macklemore & Ryan Lewis, Macklemore, Ryan Lewis, Ray Dalton",The Heist,"Macklemore & Ryan Lewis, Macklemore, Ryan Lewis",2012,4:18,FALSE,81,6733
+244,Sucker,Jonas Brothers,Sucker,Jonas Brothers,2019,3:01,FALSE,1,1506
+246,Titanium (feat. Sia),"David Guetta, Sia",Nothing but the Beat (Ultimate Edition),David Guetta,2012,4:05,FALSE,80,5029
+247,Low (feat. T-Pain),"Flo Rida, T-Pain",Mail on Sunday,Flo Rida,2008,3:51,FALSE,80,9656
+249,Sweet Dreams (Are Made of This) - Remastered,"Eurythmics, Annie Lennox, Dave Stewart",Sweet Dreams (Are Made Of This),"Eurythmics, Annie Lennox, Dave Stewart",1983,3:37,FALSE,82,3356
+250,One Kiss (with Dua Lipa),"Calvin Harris, Dua Lipa",One Kiss (with Dua Lipa),"Calvin Harris, Dua Lipa",2018,3:35,FALSE,88,2427
+251,Indicator - Radio Edit,Son Of A Preacher,Indicator,Son Of A Preacher,2020,4:12,FALSE,1,9258
+252,Phoenix Lights Crystallized,Aliens on Earth,Phoenix Lights Crystallized,Aliens on Earth,2020,5:10,FALSE,1,1496
+253,From His Broken Bones,Faderhead,Asteria,Faderhead,2019,5:12,FALSE,29,3628
+254,Harry's House,Nature of Wires,Modus,Nature of Wires,2019,4:12,FALSE,1,8804
+255,Deja Vu (Initial D),Tsuko G.,Deja Vu (Initial D),Tsuko G.,2017,4:11,FALSE,55,4376
+256,Stalker,Analias,Stalker,Analias,2019,3:24,FALSE,16,9610
+257,Lost to the Night,C. SHIROCK,Lost to the Night,C. SHIROCK,2019,3:55,FALSE,19,7550
+258,All We Have Is This Moment,C. SHIROCK,All We Have Is This Moment,C. SHIROCK,2020,4:18,FALSE,9,3228
+259,Seratonik - Original Mix,Analogtune,Asmali Ep,Analogtune,2019,8:11,FALSE,8,3253
+260,Asmali - Original Mix,Analogtune,Asmali Ep,Analogtune,2019,7:49,FALSE,4,3986
+261,Zuma,Poel,Zuma,Poel,2020,2:42,FALSE,9,8141
+262,Gravitas,Advakit,Gravitas,Advakit,2020,3:18,FALSE,14,5
+264,When It All Ends,Initial Eyes,When It All Ends,Initial Eyes,2020,5:40,FALSE,3,1981
+265,Evil Ghosts,Packo Gualandris,Evil Ghosts,Packo Gualandris,2020,7:19,FALSE,5,4833
+266,Maria,Coopsmusic_,Maria,Coopsmusic_,2020,4:00,FALSE,8,1675
+267,Drive,Zantzo,Drive,Zantzo,2020,3:18,FALSE,7,8395
+268,Turn Me On (feat. Vula),"Riton, Oliver Heldens, Vula",Turn Me On (feat. Vula),"Riton, Oliver Heldens",2019,3:28,FALSE,71,7529
+269,On My Own,ManyFew,On My Own,ManyFew,2020,2:51,FALSE,2,2142
+270,Ego Overdose,"Besomorph, EMM",Ego Overdose,"Besomorph, EMM",2020,2:41,FALSE,28,6646
+271,Crystal,Aliens on Earth,Crystal,Aliens on Earth,2019,4:40,FALSE,1,6002
+272,Boxes,Static Cycle,Boxes,Static Cycle,2019,3:33,FALSE,38,1403
+273,Wolf,Static Cycle,Wolf,Static Cycle,2020,3:00,FALSE,27,4502
+274,Aesthetic Arrest - Live,Evanoff,Evanoff Live,Evanoff,2018,7:52,FALSE,4,23
+275,Anotha Brick - Live,Evanoff,Evanoff Live,Evanoff,2018,6:11,FALSE,4,5470
+276,Crowd Control - Live,Evanoff,Evanoff Live,Evanoff,2018,6:22,FALSE,4,7681
+277,Crawl Out of Love - Live,Evanoff,Evanoff Live,Evanoff,2018,3:57,TRUE,3,4271
+278,Stealing Fire,"Bass Physics, Evanoff",Stealing Fire,"Bass Physics, Evanoff",2017,3:41,FALSE,21,1886
+279,Dahlia,Evanoff,Dahlia,Evanoff,2019,4:19,FALSE,12,903
+280,Allium,Evanoff,Allium,Evanoff,2020,4:48,FALSE,5,6777
+281,Dreamsters,Evanoff,Dreamsters,Evanoff,2020,4:21,FALSE,30,8551
+282,Golden Hour,Evanoff,Golden Hour,Evanoff,2019,4:33,FALSE,19,763
+283,On My Way,"Teddy Beats, Mon RovÎa",On My Way,"Teddy Beats, Mon RovÎa",2020,3:15,FALSE,21,46
+284,Physical,Dua Lipa,Physical,Dua Lipa,2020,3:14,FALSE,47,4551
+285,Don't Wanna Know - Radio Edit,James iD,Don't Wanna Know,James iD,2020,4:09,FALSE,6,3719
+286,Don't Wanna Know - Zaeden Remix,"Maroon 5, Kendrick Lamar, Zaeden",Don't Wanna Know (Zaeden Remix),Maroon 5,2017,3:34,FALSE,23,5323
+287,WTF Is EDM,Sorry Im Not,WTF Is EDM,Sorry Im Not,2019,3:23,TRUE,16,3466
+288,Chaos,"Sorry Im Not, Hurtz",Chaos,"Sorry Im Not, Hurtz",2019,2:51,FALSE,13,9201
+289,Blinding Lights,The Weeknd,Blinding Lights,The Weeknd,2019,3:22,FALSE,18,8658
+290,Heart Wide Open,Matt Moore,Give It All Away,Matt Moore,2012,3:38,FALSE,15,5492
+293,Raveolution,"Sandro Silva, Graham Bell",Raveolution,"Sandro Silva, Graham Bell",2020,2:44,FALSE,51,102
+294,Fire & Rain,"LOOPERS, IYONA",Fire & Rain,LOOPERS,2020,3:07,FALSE,24,1996
+296,Fading,Matt Moore,Fading - Single,Matt Moore,2012,3:34,FALSE,26,3613
+297,The Afterlife,BIGMOO,The Afterlife,BIGMOO,2019,3:15,FALSE,21,9758
+300,Winning as Truth,Trapdoor Social,Trapdoor Social,Trapdoor Social,2016,3:09,FALSE,23,7850
+301,rockstar (feat. 21 Savage),"Post Malone, 21 Savage",beerbongs & bentleys,Post Malone,2018,3:38,TRUE,84,2658
+302,Ready or Not,October Sky,Ready or Not,October Sky,2019,3:36,FALSE,10,5335
+304,Sweet Dreams (Are Made of This),"Winati, Moonshine, BELLMAN, Louise CS",Sweet Dreams (are Made of This),"Winati, Moonshine, BELLMAN",2019,2:57,FALSE,58,2198
+305,Tokyo Drift,KVSH,Tokyo Drift,KVSH,2017,3:43,FALSE,3,6462
+306,Hail to the King,Avenged Sevenfold,Hail to the King,Avenged Sevenfold,2013,5:06,FALSE,76,3837
+307,Afterlife,Avenged Sevenfold,Avenged Sevenfold,Avenged Sevenfold,2007,5:52,FALSE,69,4286
+308,Cliffs Of Dover - Instrumental,Eric Johnson,Ah Via Musicom,Eric Johnson,1905,4:10,FALSE,58,3402
+309,Numb / Encore,"JAY-Z, Linkin Park",Numb / Encore: MTV Ultimate Mash-Ups Presents Collision Course,"JAY-Z, Linkin Park",2004,3:26,TRUE,78,8568
+310,United,"Armin van Buuren, Vini Vici, Alok, Zafrir",United,"Armin van Buuren, Vini Vici, Alok",2018,3:37,FALSE,20,6593
+311,After Dark (feat. Fiora),"Seven Lions, Blastoyz, Fiora",After Dark (feat. Fiora),"Seven Lions, Blastoyz, Fiora",2018,3:50,FALSE,47,4987
+312,Chandelier - Cutmore Club Remix,"Sia, Richard Cutmore",Chandelier (Remixes),Sia,2014,5:08,FALSE,28,5669
+313,Thriller - Instrumental,Michael Jackson,Thriller 25 Super Deluxe Edition,Michael Jackson,2008,5:58,FALSE,37,4120
+314,Beat It,Michael Jackson,"HIStory - PAST, PRESENT AND FUTURE - BOOK I",Michael Jackson,1995,4:18,FALSE,55,7931
+315,Scream,"Michael Jackson, Janet Jackson","HIStory - PAST, PRESENT AND FUTURE - BOOK I",Michael Jackson,1995,4:38,TRUE,57,5567
+316,Beat It / State of Shock - Immortal Version,"Michael Jackson, The Jacksons, Mick Jagger, Kevin Antunes",Immortal,Michael Jackson,2011,3:09,FALSE,37,5641
+317,Thriller - Immortal Version,"Michael Jackson, Kevin Antunes",Immortal,Michael Jackson,2011,3:38,FALSE,42,1461
+318,Smooth Criminal - Immortal Version,Michael Jackson,Immortal,Michael Jackson,2011,2:00,FALSE,56,8275
+319,Thriller,Michael Jackson,Michael Jackson's This Is It,Michael Jackson,2009,5:57,FALSE,60,9973
+320,Slave to the Rhythm - Audien Remix Radio Edit,"Michael Jackson, Audien",Slave to the Rhythm (Audien Remix Radio Edit),Michael Jackson,2014,3:14,FALSE,32,1983

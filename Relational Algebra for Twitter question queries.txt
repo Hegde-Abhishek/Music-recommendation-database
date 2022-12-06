@@ -1,0 +1,144 @@
+Q1. What user posted this tweet?
+
+
+
+Query
+
+SELECT 
+    u.name, t.twitter_text
+FROM
+    twitter_user AS u
+        INNER JOIN
+    twitter_tweets AS t ON u.twitter_handle = t.twitter_handle
+WHERE
+    t.tweet_id = 1590790945641230337
+
+
+Relational Algebra
+π u.name, t.twitter_text
+ σ t.tweet_id = 1590790945641230337
+  (ρ u twitter_user ⋈ u.twitter_handle = t.twitter_handle
+   ρ t twitter_tweets)
+
+Q2. When did the user post this tweet?
+
+
+Query
+
+SELECT 
+    u.name, t.twitter_text, t.created_at
+FROM
+    twitter_user as u
+        INNER JOIN
+    twitter_tweets as t ON u.twitter_handle = t.twitter_handle
+WHERE
+    t.tweet_id = 1590790945641230337
+
+
+Relational Algebra
+π u.name, t.twitter_text, t.created_at
+ σ t.tweet_id = 1590790945641230337
+  (ρ u twitter_user ⋈ u.twitter_handle = t.twitter_handle
+   ρ t twitter_tweets)
+
+
+
+
+
+Q3. What tweets have this user posted in the past 24 hours?
+
+
+Query
+
+SELECT 
+    u.name, t.twitter_text, t.created_at
+FROM
+    twitter_user AS u
+        INNER JOIN
+    twitter_tweets AS t ON u.twitter_handle = t.twitter_handle
+WHERE
+    u.twitter_handle = 'gaugetherange' and t.created_at > "2022-11-11 19:00:00.0000" and t.created_at < "2022-11-12 18:59:59.0000"
+
+
+Relational Algebra
+π u . name, t . twitter_text, t . created_at
+ σ u . twitter_handle = "gaugetherange" AND t . created_at > "2022-11-11 19:00:00.0000" AND t . created_at < "2022-11-12 18:59:59.0000"
+  (ρ u twitter_user ⋈ u . twitter_handle = t . twitter_handle
+   ρ t twitter_tweets)
+
+Q4 How many tweets have this user posted in the past 24 hours?
+
+
+Query
+SELECT 
+    u.name, count(t.twitter_text), t.created_at
+FROM
+    twitter_user AS u
+        INNER JOIN
+    twitter_tweets AS t ON u.twitter_handle = t.twitter_handle
+WHERE
+    u.twitter_handle = 'gaugetherange' and t.created_at > "2022-11-11 19:00:00.0000" and t.created_at < "2022-11-12 18:59:59.0000"
+
+
+Relational Algebra
+π u . name, COUNT (twitter_text), t . created_at
+ γ COUNT (twitter_text)
+  σ u . twitter_handle = "gaugetherange" AND t . created_at > "2022-11-11 19:00:00.0000" AND t . created_at < "2022-11-12 18:59:59.0000"
+   (ρ u twitter_user ⋈ u . twitter_handle = t . twitter_handle
+    ρ t twitter_tweets)
+
+
+
+
+
+Q5 When did this user join Twitter?
+
+
+Query
+
+SELECT 
+    u.twitter_handle, u.created_at
+FROM
+    twitter_user AS u
+WHERE
+    u.twitter_handle = 'gaugetherange'
+
+
+Relational Algebra
+π u . twitter_handle, u . created_at
+ σ u . twitter_handle = "gaugetherange"
+  ρ u twitter_user
+
+Q6 What keywords/ hashtags are popular?
+
+Query
+SELECT 
+    t.tag, COUNT(t.tag)
+FROM
+    tweet_tags AS t
+GROUP BY t.tag
+ORDER BY COUNT(t.tag) DESC
+LIMIT 10
+
+
+Relational Algebra
+τ COUNT (tag) ↓
+ γ tag, COUNT (tag)
+  ρ t tweet_tags
+
+Q7 What tweets are popular?
+
+
+Query
+SELECT 
+    t.twitter_text, t.retweet
+FROM
+    twitter_tweets AS t
+ORDER BY t.retweet DESC
+LIMIT 10
+
+
+Relational Algebra
+τ t . retweet ↓
+ π t . twitter_text, t . retweet
+  ρ t twitter_tweets
