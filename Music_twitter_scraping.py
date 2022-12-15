@@ -39,8 +39,6 @@ auth = tweepy.OAuthHandler(APP_KEY, APP_SECRET)
 api = tweepy.API(auth)
 
 #  Retrieve Tweets
-# sInput = input("Enter song name: ")
-# public_tweets = api.search_tweets('black', count=10)
 cursor.execute('SELECT * FROM songs s where s.song_popularity > 84')
 songs = cursor.fetchall()
 
@@ -72,6 +70,7 @@ for names in keywords:
         if(checkdate<t1date and checkdate>t2date):
             break
         else: 
+            #assign fields to insert values
             tweet_id = tweet.id
             created_at = tweet.created_at
             tweet_text = tweet.text
@@ -85,8 +84,6 @@ for names in keywords:
             description = tweet.user.description
             userCreated_at = tweet.user.created_at
             
-            # print("------here------", "type: ", type(tweet_id), "tweet id: ", tweet_id, "created_at: ", created_at, "tweet_text: ", tweet_text, "username: ", username, "name: ", name, "userId: ", userId, "follower_count: ", follower_count, "following_count: ", following_count, "twitter_handle: ", twitter_handle, "profile_image_url: ", profile_image_url, "description: ", description)
-            # break;
             cursor.execute('''select * from tweets WHERE tweet_id = %s''', (tweet_id, ))
             findTweet = cursor.fetchone()
             print("findTweet----------", findTweet)
@@ -99,26 +96,28 @@ for names in keywords:
                 if findUser:
                     print("User already exists")
                 else:
-                    cursor.execute('''insert into twitter_user (twitter_handle, name,  description, followers_count, following_count, created_at) values (%s, %s, %s, %s, %s, %s)''', (twitter_handle, name, description, follower_count, following_count, userCreated_at))
-                
+                    #insert into twitter_user table
+                    cursor.execute('''insert into twitter_user (twitter_handle, name,  description, followers_count, following_count, created_at) values
+                    (%s, %s, %s, %s, %s, %s)''', (twitter_handle, name, description, follower_count, following_count, userCreated_at))
                 
                 tweets = api.get_status(tweet_id)
                 favorite_count = tweets.favorite_count
                 retweet_count = tweets.retweet_count
 
-                # likes_count = json.dumps(tweet['retweeted_status']['favorite_count']._json)
-                # retweet_count = tweet.retweet_count
-                cursor.execute('''insert into tweets (tweet_id, twitter_handle, tweet_text, created_at, song_id, likes, retweet) values (%s, %s, %s, %s, %s, %s, %s);''', (tweet_id, twitter_handle, tweet_text, created_at, song_id, favorite_count, retweet_count))
-                # cursor.execute('''insert into tweet_url (tweet_id, tweet_url) values (%s, %s)''', (tweet_id, "https://twitter.com/" + twitter_handle + "/status/" + str(tweet_id)))
+                #insert into tweets table
+                cursor.execute('''insert into tweets (tweet_id, twitter_handle, tweet_text, created_at, song_id, likes, retweet) values
+                (%s, %s, %s, %s, %s, %s, %s);''', (tweet_id, twitter_handle, tweet_text, created_at, song_id, favorite_count, retweet_count))
                 
                 if(len(tweet.entities['user_mentions']) > 0):
                     for mention in tweet.entities['user_mentions']:
                         target_user = mention['screen_name']
+                        #insert into tweet_mentions table
                         cursor.execute('''insert into tweet_mentions (tweet_id, source_user, target_user) values (%s, %s, %s)''', (tweet_id, twitter_handle, target_user))
                 
                 if(len(tweet.entities['hashtags']) > 0):
                     for tag in tweet.entities['hashtags']:
                         tag = tag['text']
+                        #insert into tweet_tags table
                         cursor.execute('''insert into tweet_tags (tweet_id, tags) values (%s, %s)''', (tweet_id, tag))
 
                 connection.commit()
@@ -142,7 +141,6 @@ now = datetime.now()
 prev = now + timedelta(days=-1)
 now = datetime.strftime(now, "%Y-%m-%d %H:%M:%S")
 prev = datetime.strftime(prev, "%Y-%m-%d %H:%M:%S")
-
 print("time------", type(prev), now)
 fetchThree = api.user_timeline(screen_name=anyUser, count=100)
 for tweet in fetchThree:
@@ -150,7 +148,8 @@ for tweet in fetchThree:
     print(created_at_date)
     if(created_at_date > prev and created_at_date < now):
         print("tweet in 24 hours")
-        cursor.execute("insert into tweets (tweet_id, twitter_handle, tweet_text, created_at, likes, retweet) values (%s, %s, %s, %s, %s, %s);", (tweet.id, anyUser, tweet.text, tweet.created_at, tweet.favorite_count, tweet.retweet_count))
+        cursor.execute("insert into tweets (tweet_id, twitter_handle, tweet_text, created_at, likes, retweet) values (%s, %s, %s, %s, %s, %s);",
+        (tweet.id, anyUser, tweet.text, tweet.created_at, tweet.favorite_count, tweet.retweet_count))
         connection.commit()
         print(cursor.rowcount, "was inserted.")
     else:
@@ -168,12 +167,10 @@ print("Q4: ", fourth)
 qfive = cursor.execute("SELECT u.twitter_handle, u.created_at FROM twitter_user as u where u.twitter_handle = %s", (anyUser, ))
 qfive = cursor.fetchall()
 print("Q5: ", qfive)
-
 # Q6    What keywords/ hashtags are popular?
 qsix = cursor.execute("SELECT t.tags, count(t.tags) FROM tweet_tags as t GROUP BY t.tags ORDER BY count(t.tags) DESC LIMIT 10")
 qsix = cursor.fetchall()
 print("Q6: ", qsix)
-
 # Q7    What tweets are popular?
 qseven = cursor.execute("SELECT t.tweet_text, t.likes, t.retweet FROM tweets as t ORDER BY t.retweet DESC LIMIT 10")
 qseven = cursor.fetchall()

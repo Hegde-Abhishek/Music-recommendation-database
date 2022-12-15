@@ -1,5 +1,3 @@
-CREATE DATABASE  IF NOT EXISTS `music` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
-USE `music`;
 -- MySQL dump 10.13  Distrib 8.0.31, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: music
@@ -16,6 +14,47 @@ USE `music`;
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Temporary view structure for view `10m_popular_songs`
+--
+
+DROP TABLE IF EXISTS `10m_popular_songs`;
+/*!50001 DROP VIEW IF EXISTS `10m_popular_songs`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `10m_popular_songs` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_popularity`,
+ 1 AS `song_artist`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `1987_80less`
+--
+
+DROP TABLE IF EXISTS `1987_80less`;
+/*!50001 DROP VIEW IF EXISTS `1987_80less`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `1987_80less` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `release_year`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `5000played`
+--
+
+DROP TABLE IF EXISTS `5000played`;
+/*!50001 DROP VIEW IF EXISTS `5000played`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `5000played` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_genre`,
+ 1 AS `played_count`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `album`
@@ -42,6 +81,20 @@ LOCK TABLES `album` WRITE;
 INSERT INTO `album` VALUES ('Thriller 25 Super Deluxe Edition','English',1982,1),('Bad 25th Anniversary','English',1987,2),('Blackout','English',2007,3),('Rocky IV','English',1905,4),('Songs From The Big Chair (Super Deluxe Edition)','English',1985,5),('Picture Show','English',2012,6),('Beauty Behind The Madness','English',2015,7),('Get Rich Or Die Tryin\'','English',2003,8),('Rolling Papers','English',2011,9),('The Eminem Show','English',2002,10),('Get Rich Or Die Tryin\'','English',2003,11),('The Massacre','English',2005,12),('All We Have Is This Moment','English',2020,13),('beerbongs & bentleys','English',2018,14),('Encore','English',2016,15),('Motion','English',2014,16),('Dua Lipa (Deluxe)','English',2017,17),('Planet Pop','English',2000,18),('Recovery','English',2010,19),('Recovery','English',2010,20),('The Marshall Mathers LP2','English',2013,21),('Venom (Music From The Motion Picture)','English',2018,22),('The Marshall Mathers LP2 (Deluxe)','English',2013,23),('Sweet Dreams (Are Made Of This)','English',1983,24),('Paradas Continuas','English',2009,25),('Self Control','English',1905,26),('Kim Wilde','English',1905,27),('Kim Wilde','English',1905,28),('Toto IV','English',1982,29),('Thriller','English',1982,30),('Thriller','English',1982,31),('Ladies And Gentlemen... The Best Of George Michael','English',1998,32),('Self Control','English',1905,33),('Reckless (30th Anniversary / Deluxe Edition)','English',1984,34),('Dancing On The Ceiling (Expanded Edition)','English',1905,35),('Whitney','English',1987,36),('True Blue (Reissue)','English',1986,37),('Bad 25th Anniversary','English',1987,38),('Bad 25th Anniversary','English',1987,39),('...Baby One More Time (Digital Deluxe Version)','English',1999,40),('Ricky Martin','English',1905,41),('Let\'s Talk About Love','English',1997,42),('Minutes to Midnight','English',2007,43),('Nevermind (Deluxe Edition)','English',1991,44),('Confessions (Expanded Edition)','English',2004,45),('PCD','English',2005,46),('Good Girl Gone Bad: Reloaded','English',2008,47),('Celebration (double disc version)','English',2009,48),('Jackpot','Hindi',2013,49),('Murder 2','Hindi',2011,50),('Meri Pyaari Bindu','Hindi',2017,51),('Wajah Tum Ho','Hindi',2016,52),('Sanam Re','Hindi',2016,53),('Roy','Hindi',2015,54),('Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack)','Hindi',2014,55),('Main Tera Hero','Hindi',2014,56),('Yeh Jawaani Hai Deewani','Hindi',2013,57),('Yeh Jawaani Hai Deewani','Hindi',2013,58),('Feelgood Love Songs','English',2022,59),('Recovery','English',2010,60),('Animal (Expanded Edition)','English',2010,61),('The Rokstarr Hits Collection','English',2010,62),('Only One Flo (Part 1)','English',2010,63),('Race Hits 2022','English',2021,64),('Troubadour','English',1905,65),('Disc-Overy','English',2010,66),('Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack)','Hindi',2014,67),('Enna Sona (From \"OK Jaanu\"\")\"','Hindi',2017,68),('Channa Mereya (From \"Ae Dil Hai Mushkil\"\")\"','Hindi',2016,69),('Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From \"Ae Dil Hai Mushkil\"\"]\"','Hindi',2016,70),('Cocktail','Hindi',2012,71),('Breakaway','English',1905,72),('In The Zone','English',2003,73),('My World 2.0','English',2010,74),('Planet Pop','English',2000,75),('Get Rich Or Die Tryin\'','English',2003,76),('Mail on Sunday','English',2008,77),('Shock Value','English',2007,78),('THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]','English',2009,79),('Loose','English',2006,80),('Loose','English',2006,81),('Viva La Vida or Death and All His Friends','English',2008,82),('Justified','English',2002,83),('Heads Will Roll (A-Trak Remix)','English',2009,84);
 /*!40000 ALTER TABLE `album` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `arijit_singh`
+--
+
+DROP TABLE IF EXISTS `arijit_singh`;
+/*!50001 DROP VIEW IF EXISTS `arijit_singh`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `arijit_singh` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `recordLabel`,
+ 1 AS `Release_year`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `artist`
@@ -93,8 +146,73 @@ CREATE TABLE `artist_recordlabel` (
 
 LOCK TABLES `artist_recordlabel` WRITE;
 /*!40000 ALTER TABLE `artist_recordlabel` DISABLE KEYS */;
+INSERT INTO `artist_recordlabel` VALUES (1,1),(2,2),(4,3),(5,4),(6,5),(7,6),(8,1),(9,2),(10,3),(11,4),(12,5),(13,6),(14,1),(15,2),(16,3),(17,4),(18,5),(19,6),(20,1),(21,2),(22,3),(23,4),(24,5),(25,6),(26,1),(27,2),(28,3),(29,4),(30,5),(31,6),(32,7),(33,12),(34,13),(35,12),(36,13),(37,1),(38,2),(39,3),(40,4),(41,5),(42,6),(44,1),(45,2),(46,3),(47,4),(48,5),(49,6),(50,1),(51,2),(52,3),(53,4),(54,5),(55,7),(56,13),(57,12),(58,14),(59,1);
 /*!40000 ALTER TABLE `artist_recordlabel` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `artistm30`
+--
+
+DROP TABLE IF EXISTS `artistm30`;
+/*!50001 DROP VIEW IF EXISTS `artistm30`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `artistm30` AS SELECT 
+ 1 AS `name`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `eminem_2010`
+--
+
+DROP TABLE IF EXISTS `eminem_2010`;
+/*!50001 DROP VIEW IF EXISTS `eminem_2010`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `eminem_2010` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_album`,
+ 1 AS `name`,
+ 1 AS `Release_year`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `eminem_songs`
+--
+
+DROP TABLE IF EXISTS `eminem_songs`;
+/*!50001 DROP VIEW IF EXISTS `eminem_songs`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `eminem_songs` AS SELECT 
+ 1 AS `unique_contributions`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `eminem_songs2`
+--
+
+DROP TABLE IF EXISTS `eminem_songs2`;
+/*!50001 DROP VIEW IF EXISTS `eminem_songs2`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `eminem_songs2` AS SELECT 
+ 1 AS `unique_contributions`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `eminem_songs5`
+--
+
+DROP TABLE IF EXISTS `eminem_songs5`;
+/*!50001 DROP VIEW IF EXISTS `eminem_songs5`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `eminem_songs5` AS SELECT 
+ 1 AS `tweet_text`,
+ 1 AS `song_name`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `genre`
@@ -119,6 +237,98 @@ LOCK TABLES `genre` WRITE;
 INSERT INTO `genre` VALUES (1,'Pop'),(2,'Rock'),(3,'R&B'),(4,'Hip-Hop'),(5,'Rap'),(6,'Electronic'),(7,'Funk'),(8,'Bollywood'),(9,'Anthem'),(10,'House'),(11,'Club'),(12,'Rhythm'),(13,'Blues'),(14,'Metal'),(15,'Country Music'),(16,'Jazz'),(17,'Dance'),(18,'Folk'),(19,'House'),(20,'Trance'),(21,'Soul');
 /*!40000 ALTER TABLE `genre` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `high_rating80`
+--
+
+DROP TABLE IF EXISTS `high_rating80`;
+/*!50001 DROP VIEW IF EXISTS `high_rating80`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `high_rating80` AS SELECT 
+ 1 AS `song_name`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `l40`
+--
+
+DROP TABLE IF EXISTS `l40`;
+/*!50001 DROP VIEW IF EXISTS `l40`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `l40` AS SELECT 
+ 1 AS `name`,
+ 1 AS `age`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `least_tweet_songs`
+--
+
+DROP TABLE IF EXISTS `least_tweet_songs`;
+/*!50001 DROP VIEW IF EXISTS `least_tweet_songs`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `least_tweet_songs` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `count`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `less_popular_arijit_singh_songs`
+--
+
+DROP TABLE IF EXISTS `less_popular_arijit_singh_songs`;
+/*!50001 DROP VIEW IF EXISTS `less_popular_arijit_singh_songs`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `less_popular_arijit_singh_songs` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_artist`,
+ 1 AS `song_popularity`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `mj1982thriller`
+--
+
+DROP TABLE IF EXISTS `mj1982thriller`;
+/*!50001 DROP VIEW IF EXISTS `mj1982thriller`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `mj1982thriller` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_artist`,
+ 1 AS `song_album`,
+ 1 AS `Release_year`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `mj_unique_albums`
+--
+
+DROP TABLE IF EXISTS `mj_unique_albums`;
+/*!50001 DROP VIEW IF EXISTS `mj_unique_albums`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `mj_unique_albums` AS SELECT 
+ 1 AS `unique_albums`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `most_played`
+--
+
+DROP TABLE IF EXISTS `most_played`;
+/*!50001 DROP VIEW IF EXISTS `most_played`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `most_played` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_popularity`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `play_history`
@@ -146,6 +356,18 @@ LOCK TABLES `play_history` WRITE;
 INSERT INTO `play_history` VALUES (4680,81,1),(2055,79,2),(2397,78,3),(7647,76,4),(9455,86,5),(2635,78,6),(2554,74,7),(7498,82,8),(7111,75,9),(2652,75,11),(1283,80,12),(1767,9,13),(2757,84,14),(8560,49,15),(2798,76,16),(5967,80,17),(5263,67,18),(7407,80,19),(952,82,20),(4701,77,21),(2388,73,22),(7836,77,23),(5574,82,24),(2383,1,25),(7602,72,26),(535,68,27),(2541,68,28),(7066,82,29),(2566,63,30),(4103,61,31),(6562,79,32),(2434,72,33),(9348,81,34),(7545,68,35),(3794,80,36),(7328,73,37),(75,69,38),(3011,61,39),(9469,78,40),(3371,73,41),(7594,79,43),(4557,11,44),(4530,81,45),(1774,66,46),(4119,79,47),(9537,70,48),(5007,59,49),(1733,63,50),(3776,56,51),(3469,45,52),(1097,62,53),(8580,63,54),(9149,64,55),(8631,50,56),(9816,67,57),(5446,62,58),(3858,44,59),(9033,82,60),(6026,80,61),(2238,79,62),(6227,75,63),(7742,41,64),(6792,58,65),(7951,46,66),(6379,64,67),(932,53,68),(8445,60,69),(7944,35,70),(2490,33,71),(9177,64,72),(2777,81,73),(1022,80,74),(5660,67,75),(7888,82,76),(5196,80,77),(8496,76,78),(8234,68,79),(4592,81,80),(9037,78,81),(2354,84,82),(5425,76,83),(7843,68,84);
 /*!40000 ALTER TABLE `play_history` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `pop_genre_artists`
+--
+
+DROP TABLE IF EXISTS `pop_genre_artists`;
+/*!50001 DROP VIEW IF EXISTS `pop_genre_artists`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `pop_genre_artists` AS SELECT 
+ 1 AS `name`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `recordlabel`
@@ -221,6 +443,7 @@ CREATE TABLE `song_album` (
 
 LOCK TABLES `song_album` WRITE;
 /*!40000 ALTER TABLE `song_album` DISABLE KEYS */;
+INSERT INTO `song_album` VALUES (1,1),(39,2),(38,2),(2,2),(3,3),(4,4),(5,5),(6,6),(7,7),(76,8),(11,8),(8,8),(9,9),(10,10),(76,11),(11,11),(8,11),(12,12),(13,13),(14,14),(15,15),(16,16),(17,17),(75,18),(18,18),(60,19),(20,19),(19,19),(60,20),(20,20),(19,20),(21,21),(22,22),(23,23),(24,24),(25,25),(33,26),(26,26),(28,27),(27,27),(28,28),(27,28),(29,29),(31,30),(30,30),(31,31),(30,31),(32,32),(33,33),(26,33),(34,34),(35,35),(36,36),(37,37),(39,38),(38,38),(2,38),(39,39),(38,39),(2,39),(40,40),(41,41),(42,42),(43,43),(44,44),(45,45),(46,46),(47,47),(48,48),(49,49),(50,50),(51,51),(52,52),(53,53),(54,54),(67,55),(55,55),(56,56),(58,57),(57,57),(58,58),(57,58),(59,59),(60,60),(20,60),(19,60),(61,61),(62,62),(63,63),(64,64),(65,65),(66,66),(67,67),(55,67),(68,68),(69,69),(70,70),(71,71),(72,72),(73,73),(74,74),(75,75),(18,75),(76,76),(11,76),(8,76),(77,77),(78,78),(79,79),(81,80),(80,80),(81,81),(80,81),(82,82),(83,83),(84,84);
 /*!40000 ALTER TABLE `song_album` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -247,8 +470,24 @@ CREATE TABLE `song_genre` (
 
 LOCK TABLES `song_genre` WRITE;
 /*!40000 ALTER TABLE `song_genre` DISABLE KEYS */;
+INSERT INTO `song_genre` VALUES (1,1),(2,1),(3,1),(4,2),(5,3),(6,3),(7,1),(8,4),(9,5),(10,4),(11,4),(12,4),(13,3),(14,3),(15,1),(16,6),(17,1),(18,1),(19,4),(20,4),(21,4),(22,4),(23,4),(24,1),(25,7),(26,1),(27,2),(28,2),(29,1),(30,1),(31,1),(32,1),(33,1),(34,2),(35,3),(36,1),(37,1),(38,1),(39,1),(40,1),(41,1),(42,1),(43,2),(44,2),(45,3),(46,1),(47,3),(48,1),(49,8),(50,8),(51,8),(52,8),(53,8),(54,8),(55,8),(56,8),(57,8),(58,8),(59,3),(60,4),(61,1),(62,3),(63,3),(64,1),(65,9),(66,19),(66,10),(67,8),(68,8),(69,8),(70,8),(71,8),(72,1),(73,1),(74,1),(75,1),(76,4),(77,3),(78,3),(79,11),(80,1),(81,1),(82,1),(83,2),(84,11);
 /*!40000 ALTER TABLE `song_genre` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `song_retweets`
+--
+
+DROP TABLE IF EXISTS `song_retweets`;
+/*!50001 DROP VIEW IF EXISTS `song_retweets`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `song_retweets` AS SELECT 
+ 1 AS `tweet_text`,
+ 1 AS `song_name`,
+ 1 AS `song_artist`,
+ 1 AS `retweet`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `songs`
@@ -279,6 +518,46 @@ LOCK TABLES `songs` WRITE;
 INSERT INTO `songs` VALUES (1,'Beat It','Thriller 25 Super Deluxe Edition','Michael Jackson','Pop',3,'English',81),(2,'Smooth Criminal - 2012 Remaster','Bad 25th Anniversary','Michael Jackson','Pop',3,'English',79),(3,'Gimme More','Blackout','Britney Spears','Pop',3,'English',78),(4,'Eye of the Tiger','Rocky IV','Survivor','Rock',3,'English',76),(5,'Everybody Wants To Rule The World','Songs From The Big Chair (Super Deluxe Edition)','Tears For Fears','R&B',3,'English',86),(6,'Everybody Talks','Picture Show','Neon Trees','R&B',2,'English',79),(7,'Earned It (Fifty Shades Of Grey)','Beauty Behind The Madness','The Weeknd','Pop',3,'English',74),(8,'In Da Club','Get Rich Or Die Tryin\'','50 Cent','Hip-Hop',2,'English',82),(9,'Black and Yellow','Rolling Papers','Wiz Khalifa','Rap',3,'English',75),(10,'Superman','The Eminem Show','Eminem, Dina Rae','Hip-Hop',4,'English',0),(11,'In Da Club','Get Rich Or Die Tryin\'','50 Cent','Hip-Hop',2,'English',75),(12,'Candy Shop','The Massacre','50 Cent, Olivia','Hip-Hop',2,'English',80),(13,'All We Have Is This Moment','All We Have Is This Moment','C. SHIROCK','R&B',3,'English',9),(14,'rockstar (feat. 21 Savage)','beerbongs & bentleys','Post Malone, 21 Savage','R&B',3,'English',84),(15,'Let Me Love You','Encore','DJ Snake, Justin Bieber','Pop',2,'English',49),(16,'Blame (feat. John Newman)','Motion','Calvin Harris, John Newman','Electronic',2,'English',76),(17,'New Rules','Dua Lipa (Deluxe)','Dua Lipa','Pop',2,'English',80),(18,'Around the World (La La La La La) - Radio Version','Planet Pop','A Touch Of Class, Pete Konemann','Pop',2,'English',67),(19,'Not Afraid','Recovery','Eminem','Hip-Hop',3,'English',80),(20,'Love The Way You Lie','Recovery','Eminem, Rihanna','Hip-Hop',3,'English',82),(21,'The Monster','The Marshall Mathers LP2','Eminem, Rihanna','Hip-Hop',3,'English',77),(22,'Venom - Music From The Motion Picture','Venom (Music From The Motion Picture)','Eminem','Hip-Hop',3,'English',73),(23,'Rap God','The Marshall Mathers LP2 (Deluxe)','Eminem','Hip-Hop',4,'English',77),(24,'Sweet Dreams (Are Made of This) - Remastered','Sweet Dreams (Are Made Of This)','Eurythmics, Annie Lennox, Dave Stewart','Pop',3,'English',82),(25,'Funky Town','Paradas Continuas','Lipps Inc.','Funk',3,'English',1),(26,'Self Control','Self Control','Laura Branigan','Pop',3,'English',72),(27,'Kids In America','Kim Wilde','Kim Wilde','Rock',2,'English',68),(28,'Kids In America','Kim Wilde','Kim Wilde','Rock',2,'English',68),(29,'Africa','Toto IV','TOTO','Pop',3,'English',82),(30,'Billie Jean','Thriller','Michael Jackson','Pop',3,'English',63),(31,'Beat It','Thriller','Michael Jackson','Pop',3,'English',61),(32,'Careless Whisper','Ladies And Gentlemen... The Best Of George Michael','George Michael','Pop',3,'English',79),(33,'Self Control','Self Control','Laura Branigan','Pop',3,'English',72),(34,'Summer Of \'69','Reckless (30th Anniversary / Deluxe Edition)','Bryan Adams','Rock',3,'English',81),(35,'Say You, Say Me','Dancing On The Ceiling (Expanded Edition)','Lionel Richie','R&B',3,'English',68),(36,'I Wanna Dance with Somebody (Who Loves Me)','Whitney','Whitney Houston','Pop',3,'English',80),(37,'La Isla Bonita','True Blue (Reissue)','Madonna','Pop',3,'English',73),(38,'Man in the Mirror - 2012 Remaster','Bad 25th Anniversary','Michael Jackson','Pop',4,'English',69),(39,'Dirty Diana - 2012 Remaster','Bad 25th Anniversary','Michael Jackson','Pop',3,'English',61),(40,'...Baby One More Time','...Baby One More Time (Digital Deluxe Version)','Britney Spears','Pop',2,'English',78),(41,'Livin\' la Vida Loca','Ricky Martin','Ricky Martin','Pop',3,'English',73),(42,'My Heart Will Go On - Love Theme from \"Titanic\"\"\"','Let\'s Talk About Love','CÃ©line Dion','Pop',3,'English',0),(43,'What I\'ve Done','Minutes to Midnight','Linkin Park','Rock',2,'English',79),(44,'Smells Like Teen Spirit','Nevermind (Deluxe Edition)','Nirvana','Rock',3,'English',12),(45,'Yeah! (feat. Lil Jon & Ludacris)','Confessions (Expanded Edition)','Usher, Lil Jon, Ludacris','R&B',3,'English',81),(46,'Don\'t Cha','PCD','The Pussycat Dolls, Busta Rhymes','Pop',3,'English',66),(47,'Don\'t Stop The Music','Good Girl Gone Bad: Reloaded','Rihanna','R&B',3,'English',79),(48,'4 Minutes (feat. Justin Timberlake & Timbaland)','Celebration (double disc version)','Madonna, Justin Timberlake, Timbaland','Pop',2,'English',70),(49,'Kabhi Jo Baadal Barse','Jackpot','Arijit Singh','Bollywood',3,'Hindi',59),(50,'Phir Mohabbat','Murder 2','Mohammed Irfan, Arijit Singh, Saim Bhat','Bollywood',4,'Hindi',63),(51,'Haareya','Meri Pyaari Bindu','Sachin-Jigar, Arijit Singh, Priya Saraiya','Bollywood',2,'Hindi',56),(52,'Dil Ke Paas','Wajah Tum Ho','Arijit Singh, Tulsi Kumar, Neuman Pinto','Bollywood',3,'Hindi',45),(53,'Sanam Re','Sanam Re','Mithoon, Arijit Singh','Bollywood',4,'Hindi',62),(54,'Sooraj Dooba Hain','Roy','Arijit Singh, Aditi Singh Sharma','Bollywood',3,'Hindi',63),(55,'Samjhawan','Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack)','Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal','Bollywood',3,'Hindi',64),(56,'Palat - Tera Hero Idhar Hai','Main Tera Hero','Arijit Singh','Bollywood',3,'Hindi',50),(57,'Ilahi','Yeh Jawaani Hai Deewani','Pritam, Arijit Singh','Bollywood',3,'Hindi',67),(58,'Dilliwaali Girlfriend','Yeh Jawaani Hai Deewani','Pritam, Arijit Singh, Sunidhi Chauhan','Bollywood',3,'Hindi',62),(59,'Just the Way You Are','Feelgood Love Songs','Bruno Mars','R&B',3,'English',4),(60,'Love The Way You Lie','Recovery','Eminem, Rihanna','Hip-Hop',3,'English',82),(61,'TiK ToK','Animal (Expanded Edition)','Kesha','Pop',2,'English',80),(62,'Dynamite','The Rokstarr Hits Collection','Taio Cruz','R&B',2,'English',79),(63,'Club Can\'t Handle Me (feat. David Guetta)','Only One Flo (Part 1)','Flo Rida, David Guetta','R&B',3,'English',75),(64,'Like A G6','Race Hits 2022','Far East Movement, The Cataracs, DEV','Pop',3,'English',0),(65,'Wavin\' Flag','Troubadour','K\'NAAN','Anthem',3,'English',58),(66,'Miami 2 Ibiza - Swedish House Mafia vs. Tinie Tempah','Disc-Overy','Swedish House Mafia, Tinie Tempah','House',2,'English',46),(67,'Samjhawan','Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack)','Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal','Bollywood',3,'Hindi',64),(68,'Enna Sona (From \"OK Jaanu\"\")\"','Enna Sona (From \"OK Jaanu\"\")\"','A.R. Rahman, Arijit Singh','Bollywood',2,'Hindi',53),(69,'Channa Mereya (From \"Ae Dil Hai Mushkil\"\")\"','Channa Mereya (From \"Ae Dil Hai Mushkil\"\")\"','Pritam, Arijit Singh','Bollywood',3,'Hindi',60),(70,'Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From \"Ae Dil Hai Mushkil\"\"]\"','Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From \"Ae Dil Hai Mushkil\"\"]\"','Pritam, Arijit Singh, Dj Kiran Kamath','Bollywood',3,'Hindi',35),(71,'Yaariyan (reprise)','Cocktail','Sunidhi Chauhan, Arijit Singh','Bollywood',4,'Hindi',33),(72,'Breakaway','Breakaway','Kelly Clarkson','Pop',3,'English',64),(73,'Toxic','In The Zone','Britney Spears','Pop',2,'English',81),(74,'Baby','My World 2.0','Justin Bieber, Ludacris','Pop',2,'English',80),(75,'Around the World (La La La La La) - Radio Version','Planet Pop','A Touch Of Class, Pete Konemann','Pop',2,'English',67),(76,'In Da Club','Get Rich Or Die Tryin\'','50 Cent','Hip-Hop',2,'English',82),(77,'Low (feat. T-Pain)','Mail on Sunday','Flo Rida, T-Pain','R&B',3,'English',80),(78,'Apologize - feat. One Republic','Shock Value','Timbaland, OneRepublic','R&B',2,'English',76),(79,'Boom Boom Pow','THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version]','Black Eyed Peas','Club',3,'English',68),(80,'Promiscuous','Loose','Nelly Furtado, Timbaland','Pop',3,'English',81),(81,'Say It Right','Loose','Nelly Furtado','Pop',3,'English',78),(82,'Viva La Vida','Viva La Vida or Death and All His Friends','Coldplay','Pop',3,'English',84),(83,'Rock Your Body','Justified','Justin Timberlake','Rock',3,'English',76),(84,'Heads Will Roll - A-Trak Remix','Heads Will Roll (A-Trak Remix)','Yeah Yeah Yeahs, A-Trak','Club',4,'English',68);
 /*!40000 ALTER TABLE `songs` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Temporary view structure for view `spotify_twitter_songs`
+--
+
+DROP TABLE IF EXISTS `spotify_twitter_songs`;
+/*!50001 DROP VIEW IF EXISTS `spotify_twitter_songs`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `spotify_twitter_songs` AS SELECT 
+ 1 AS `tweet_text`,
+ 1 AS `song_name`,
+ 1 AS `song_artist`,
+ 1 AS `retweet`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `top10_popular_songs`
+--
+
+DROP TABLE IF EXISTS `top10_popular_songs`;
+/*!50001 DROP VIEW IF EXISTS `top10_popular_songs`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `top10_popular_songs` AS SELECT 
+ 1 AS `song_name`,
+ 1 AS `song_popularity`*/;
+SET character_set_client = @saved_cs_client;
+
+--
+-- Temporary view structure for view `top5_artists`
+--
+
+DROP TABLE IF EXISTS `top5_artists`;
+/*!50001 DROP VIEW IF EXISTS `top5_artists`*/;
+SET @saved_cs_client     = @@character_set_client;
+/*!50503 SET character_set_client = utf8mb4 */;
+/*!50001 CREATE VIEW `top5_artists` AS SELECT 
+ 1 AS `song_artist`*/;
+SET character_set_client = @saved_cs_client;
 
 --
 -- Table structure for table `tweet_mentions`
@@ -417,6 +696,384 @@ LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Final view structure for view `10m_popular_songs`
+--
+
+/*!50001 DROP VIEW IF EXISTS `10m_popular_songs`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `10m_popular_songs` AS select `songs`.`song_name` AS `song_name`,`songs`.`song_popularity` AS `song_popularity`,`songs`.`song_artist` AS `song_artist` from `songs` where ((`songs`.`song_language` = 'english') and (`songs`.`song_artist` like 'M%')) order by `songs`.`song_popularity` desc limit 10 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `1987_80less`
+--
+
+/*!50001 DROP VIEW IF EXISTS `1987_80less`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `1987_80less` AS select distinct `a`.`song_name` AS `song_name`,`b`.`Release_year` AS `release_year` from (`songs` `a` join `album` `b` on((`a`.`song_album` = `b`.`Name`))) where ((`a`.`song_popularity` < 80) and (`b`.`Release_year` = '1987')) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `5000played`
+--
+
+/*!50001 DROP VIEW IF EXISTS `5000played`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `5000played` AS select `b`.`song_name` AS `song_name`,`b`.`song_genre` AS `song_genre`,`c`.`Played_count` AS `played_count` from (`songs` `b` join `play_history` `c` on((`b`.`song_id` = `c`.`song_id`))) where (`c`.`Played_count` > 5000) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `arijit_singh`
+--
+
+/*!50001 DROP VIEW IF EXISTS `arijit_singh`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `arijit_singh` AS select `a`.`song_name` AS `song_name`,`b`.`recordLabel` AS `recordLabel`,`c`.`Release_year` AS `Release_year` from ((`songs` `a` join `artist` `b` on((`b`.`name` = `a`.`song_artist`))) join `album` `c` on((`c`.`Name` = `a`.`song_album`))) where ((`b`.`name` = 'Arijit Singh') and (`b`.`recordLabel` = 'T-series') and (`c`.`Release_year` between '2013' and '2015')) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `artistm30`
+--
+
+/*!50001 DROP VIEW IF EXISTS `artistm30`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `artistm30` AS select distinct `a`.`name` AS `name` from (`artist` `a` join `songs` `b` on((`a`.`name` = `b`.`song_artist`))) where ((`a`.`name` like 'M%') and (`a`.`age` > 30)) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `eminem_2010`
+--
+
+/*!50001 DROP VIEW IF EXISTS `eminem_2010`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `eminem_2010` AS select distinct `a`.`song_name` AS `song_name`,`a`.`song_album` AS `song_album`,`b`.`name` AS `name`,`c`.`Release_year` AS `Release_year` from ((`songs` `a` join `artist` `b` on((`b`.`name` = `a`.`song_artist`))) join `album` `c` on((`c`.`Name` = `a`.`song_album`))) where ((`b`.`name` = 'Eminem') and (`c`.`Release_year` = '2010')) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `eminem_songs`
+--
+
+/*!50001 DROP VIEW IF EXISTS `eminem_songs`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `eminem_songs` AS select count(distinct `songs`.`song_name`) AS `unique_contributions` from `songs` where (`songs`.`song_artist` like '%Eminem%') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `eminem_songs2`
+--
+
+/*!50001 DROP VIEW IF EXISTS `eminem_songs2`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `eminem_songs2` AS select distinct `songs`.`song_name` AS `unique_contributions` from `songs` where (`songs`.`song_artist` like '%Eminem%') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `eminem_songs5`
+--
+
+/*!50001 DROP VIEW IF EXISTS `eminem_songs5`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `eminem_songs5` AS select `a`.`tweet_text` AS `tweet_text`,`b`.`song_name` AS `song_name` from (`tweets` `a` join `songs` `b` on((`a`.`song_id` = `b`.`song_id`))) where (`a`.`tweet_text` like '%Eminem%') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `high_rating80`
+--
+
+/*!50001 DROP VIEW IF EXISTS `high_rating80`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `high_rating80` AS select `a`.`song_name` AS `song_name` from (`songs` `a` join `album` `b` on((`a`.`song_album` = `b`.`Name`))) where ((`a`.`song_popularity` > 80) and (`b`.`Release_year` between '2000' and '2015')) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `l40`
+--
+
+/*!50001 DROP VIEW IF EXISTS `l40`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `l40` AS select distinct `a`.`name` AS `name`,`a`.`age` AS `age` from (`artist` `a` join `songs` `b` on((`a`.`name` = `b`.`song_artist`))) where ((`a`.`name` like 'L%') and (`a`.`age` > 40)) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `least_tweet_songs`
+--
+
+/*!50001 DROP VIEW IF EXISTS `least_tweet_songs`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `least_tweet_songs` AS select `m`.`song_name` AS `song_name`,count(`t`.`song_id`) AS `count` from (`songs` `m` join `tweets` `t` on((`t`.`song_id` = `m`.`song_id`))) group by `m`.`song_name` order by `count` limit 1 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `less_popular_arijit_singh_songs`
+--
+
+/*!50001 DROP VIEW IF EXISTS `less_popular_arijit_singh_songs`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `less_popular_arijit_singh_songs` AS select distinct `a`.`song_name` AS `song_name`,`a`.`song_artist` AS `song_artist`,`a`.`song_popularity` AS `song_popularity` from ((`songs` `a` join `artist` `b` on((`b`.`name` = `a`.`song_artist`))) join `album` `c` on((`c`.`Name` = `a`.`song_album`))) where ((`b`.`name` = 'Arijit Singh') and (`a`.`song_genre` = 'Bollywood')) order by `a`.`song_popularity` */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `mj1982thriller`
+--
+
+/*!50001 DROP VIEW IF EXISTS `mj1982thriller`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `mj1982thriller` AS select distinct `a`.`song_name` AS `song_name`,`a`.`song_artist` AS `song_artist`,`a`.`song_album` AS `song_album`,`c`.`Release_year` AS `Release_year` from ((`songs` `a` join `artist` `b` on((`b`.`name` = `a`.`song_artist`))) join `album` `c` on((`c`.`Name` = `a`.`song_album`))) where ((`b`.`name` = 'Michael Jackson') and (`c`.`Name` = 'Thriller') and (`c`.`Release_year` = '1982')) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `mj_unique_albums`
+--
+
+/*!50001 DROP VIEW IF EXISTS `mj_unique_albums`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `mj_unique_albums` AS select count(distinct `songs`.`song_album`) AS `unique_albums` from `songs` where (`songs`.`song_artist` = 'Michael Jackson') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `most_played`
+--
+
+/*!50001 DROP VIEW IF EXISTS `most_played`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `most_played` AS select distinct `a`.`song_name` AS `song_name`,`a`.`song_popularity` AS `song_popularity` from (`songs` `a` join `play_history` `b` on((`a`.`song_id` = `b`.`song_id`))) where (`b`.`Played_count` > 9000) */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `pop_genre_artists`
+--
+
+/*!50001 DROP VIEW IF EXISTS `pop_genre_artists`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `pop_genre_artists` AS select distinct `a`.`name` AS `name` from (`artist` `a` join `songs` `b` on((`a`.`name` = `b`.`song_artist`))) where (`b`.`song_genre` = 'Pop') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `song_retweets`
+--
+
+/*!50001 DROP VIEW IF EXISTS `song_retweets`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `song_retweets` AS select `a`.`tweet_text` AS `tweet_text`,`b`.`song_name` AS `song_name`,`b`.`song_artist` AS `song_artist`,`a`.`retweet` AS `retweet` from (`tweets` `a` join `songs` `b` on((`a`.`song_id` = `b`.`song_id`))) where (`a`.`tweet_text` like '%Sweet%') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `spotify_twitter_songs`
+--
+
+/*!50001 DROP VIEW IF EXISTS `spotify_twitter_songs`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `spotify_twitter_songs` AS select `a`.`tweet_text` AS `tweet_text`,`b`.`song_name` AS `song_name`,`b`.`song_artist` AS `song_artist`,`a`.`retweet` AS `retweet` from (`tweets` `a` join `songs` `b` on((`a`.`song_id` = `b`.`song_id`))) where (`a`.`Twitter_handle` like '%AM25spotify%') */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `top10_popular_songs`
+--
+
+/*!50001 DROP VIEW IF EXISTS `top10_popular_songs`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `top10_popular_songs` AS select `songs`.`song_name` AS `song_name`,`songs`.`song_popularity` AS `song_popularity` from `songs` where (`songs`.`song_language` = 'english') order by `songs`.`song_popularity` desc limit 10 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
+
+--
+-- Final view structure for view `top5_artists`
+--
+
+/*!50001 DROP VIEW IF EXISTS `top5_artists`*/;
+/*!50001 SET @saved_cs_client          = @@character_set_client */;
+/*!50001 SET @saved_cs_results         = @@character_set_results */;
+/*!50001 SET @saved_col_connection     = @@collation_connection */;
+/*!50001 SET character_set_client      = utf8mb4 */;
+/*!50001 SET character_set_results     = utf8mb4 */;
+/*!50001 SET collation_connection      = utf8mb4_0900_ai_ci */;
+/*!50001 CREATE ALGORITHM=UNDEFINED */
+/*!50013 DEFINER=`root`@`localhost` SQL SECURITY DEFINER */
+/*!50001 VIEW `top5_artists` AS select distinct `songs`.`song_artist` AS `song_artist` from `songs` where ((`songs`.`song_language` = 'English') and (`songs`.`song_genre` = 'Pop')) order by `songs`.`song_popularity` desc limit 5 */;
+/*!50001 SET character_set_client      = @saved_cs_client */;
+/*!50001 SET character_set_results     = @saved_cs_results */;
+/*!50001 SET collation_connection      = @saved_col_connection */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -427,4 +1084,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-12-13 20:41:46
+-- Dump completed on 2022-12-14 23:52:18

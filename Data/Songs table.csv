@@ -1,0 +1,302 @@
+song_id,song_name,song_album,song_artist,song_genre,song_length,song_language,song_popularity
+1,Beat It,Thriller 25 Super Deluxe Edition,Michael Jackson,Pop,3,English,81
+2,Smooth Criminal - 2012 Remaster,Bad 25th Anniversary,Michael Jackson,Pop,3,English,79
+3,Gimme More,Blackout,Britney Spears,Pop,3,English,78
+4,Eye of the Tiger,Rocky IV,Survivor,Rock,3,English,76
+5,Everybody Wants To Rule The World,Songs From The Big Chair (Super Deluxe Edition),Tears For Fears,R&B,3,English,86
+6,Everybody Talks,Picture Show,Neon Trees,R&B,2,English,79
+7,Earned It (Fifty Shades Of Grey),Beauty Behind The Madness,The Weeknd,Pop,3,English,74
+8,In Da Club,Get Rich Or Die Tryin',50 Cent,Hip-Hop,2,English,82
+9,Black and Yellow,Rolling Papers,Wiz Khalifa,Rap,3,English,75
+10,Superman,The Eminem Show,"Eminem, Dina Rae",Hip-Hop,4,English,0
+11,In Da Club,Get Rich Or Die Tryin',50 Cent,Hip-Hop,2,English,75
+12,Candy Shop,The Massacre,"50 Cent, Olivia",Hip-Hop,2,English,80
+13,All We Have Is This Moment,All We Have Is This Moment,C. SHIROCK,R&B,3,English,9
+14,rockstar (feat. 21 Savage),beerbongs & bentleys,"Post Malone, 21 Savage",R&B,3,English,84
+15,Let Me Love You,Encore,"DJ Snake, Justin Bieber",Pop,2,English,49
+16,Blame (feat. John Newman),Motion,"Calvin Harris, John Newman",Electronic,2,English,76
+17,New Rules,Dua Lipa (Deluxe),Dua Lipa,Pop,2,English,80
+18,Around the World (La La La La La) - Radio Version,Planet Pop,"A Touch Of Class, Pete Konemann",Pop,2,English,67
+19,Not Afraid,Recovery,Eminem,Hip-Hop,3,English,80
+20,Love The Way You Lie,Recovery,"Eminem, Rihanna",Hip-Hop,3,English,82
+21,The Monster,The Marshall Mathers LP2,"Eminem, Rihanna",Hip-Hop,3,English,77
+22,Venom - Music From The Motion Picture,Venom (Music From The Motion Picture),Eminem,Hip-Hop,3,English,73
+23,Rap God,The Marshall Mathers LP2 (Deluxe),Eminem,Hip-Hop,4,English,77
+24,Sweet Dreams (Are Made of This) - Remastered,Sweet Dreams (Are Made Of This),"Eurythmics, Annie Lennox, Dave Stewart",Pop,3,English,82
+25,Funky Town,Paradas Continuas,Lipps Inc.,Funk,3,English,1
+26,Self Control,Self Control,Laura Branigan,Pop,3,English,72
+27,Kids In America,Kim Wilde,Kim Wilde,Rock,2,English,68
+28,Kids In America,Kim Wilde,Kim Wilde,Rock,2,English,68
+29,Africa,Toto IV,TOTO,Pop,3,English,82
+30,Billie Jean,Thriller,Michael Jackson,Pop,3,English,63
+31,Beat It,Thriller,Michael Jackson,Pop,3,English,61
+32,Careless Whisper,Ladies And Gentlemen... The Best Of George Michael,George Michael,Pop,3,English,79
+33,Self Control,Self Control,Laura Branigan,Pop,3,English,72
+34,Summer Of '69,Reckless (30th Anniversary / Deluxe Edition),Bryan Adams,Rock,3,English,81
+35,"Say You, Say Me",Dancing On The Ceiling (Expanded Edition),Lionel Richie,R&B,3,English,68
+36,I Wanna Dance with Somebody (Who Loves Me),Whitney,Whitney Houston,Pop,3,English,80
+37,La Isla Bonita,True Blue (Reissue),Madonna,Pop,3,English,73
+38,Man in the Mirror - 2012 Remaster,Bad 25th Anniversary,Michael Jackson,Pop,4,English,69
+39,Dirty Diana - 2012 Remaster,Bad 25th Anniversary,Michael Jackson,Pop,3,English,61
+40,...Baby One More Time,...Baby One More Time (Digital Deluxe Version),Britney Spears,Pop,2,English,78
+41,Livin' la Vida Loca,Ricky Martin,Ricky Martin,Pop,3,English,73
+42,"My Heart Will Go On - Love Theme from Titanic""""""""",Let's Talk About Love,CÃ©line Dion,Pop,3,English,0
+43,What I've Done,Minutes to Midnight,Linkin Park,Rock,2,English,79
+44,Smells Like Teen Spirit,Nevermind (Deluxe Edition),Nirvana,Rock,3,English,12
+45,Yeah! (feat. Lil Jon & Ludacris),Confessions (Expanded Edition),"Usher, Lil Jon, Ludacris",R&B,3,English,81
+46,Don't Cha,PCD,"The Pussycat Dolls, Busta Rhymes",Pop,3,English,66
+47,Don't Stop The Music,Good Girl Gone Bad: Reloaded,Rihanna,R&B,3,English,79
+48,4 Minutes (feat. Justin Timberlake & Timbaland),Celebration (double disc version),"Madonna, Justin Timberlake, Timbaland",Pop,2,English,70
+49,Kabhi Jo Baadal Barse,Jackpot,Arijit Singh,Bollywood,3,Hindi,59
+50,Phir Mohabbat,Murder 2,"Mohammed Irfan, Arijit Singh, Saim Bhat",Bollywood,4,Hindi,63
+51,Haareya,Meri Pyaari Bindu,"Sachin-Jigar, Arijit Singh, Priya Saraiya",Bollywood,2,Hindi,56
+52,Dil Ke Paas,Wajah Tum Ho,"Arijit Singh, Tulsi Kumar, Neuman Pinto",Bollywood,3,Hindi,45
+53,Sanam Re,Sanam Re,"Mithoon, Arijit Singh",Bollywood,4,Hindi,62
+54,Sooraj Dooba Hain,Roy,"Arijit Singh, Aditi Singh Sharma",Bollywood,3,Hindi,63
+55,Samjhawan,Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack),"Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal",Bollywood,3,Hindi,64
+56,Palat - Tera Hero Idhar Hai,Main Tera Hero,Arijit Singh,Bollywood,3,Hindi,50
+57,Ilahi,Yeh Jawaani Hai Deewani,"Pritam, Arijit Singh",Bollywood,3,Hindi,67
+58,Dilliwaali Girlfriend,Yeh Jawaani Hai Deewani,"Pritam, Arijit Singh, Sunidhi Chauhan",Bollywood,3,Hindi,62
+59,Just the Way You Are,Feelgood Love Songs,Bruno Mars,R&B,3,English,4
+60,Love The Way You Lie,Recovery,"Eminem, Rihanna",Hip-Hop,3,English,82
+61,TiK ToK,Animal (Expanded Edition),Kesha,Pop,2,English,80
+62,Dynamite,The Rokstarr Hits Collection,Taio Cruz,R&B,2,English,79
+63,Club Can't Handle Me (feat. David Guetta),Only One Flo (Part 1),"Flo Rida, David Guetta",R&B,3,English,75
+64,Like A G6,Race Hits 2022,"Far East Movement, The Cataracs, DEV",Pop,3,English,0
+65,Wavin' Flag,Troubadour,K'NAAN,Anthem,3,English,58
+66,Miami 2 Ibiza - Swedish House Mafia vs. Tinie Tempah,Disc-Overy,"Swedish House Mafia, Tinie Tempah",House,2,English,46
+67,Samjhawan,Humpty Sharma Ki Dulhania (Original Motion Picture Soundtrack),"Jawad Ahmad, Shaarib Toshi, Arijit Singh, Shreya Ghoshal",Bollywood,3,Hindi,64
+68,"Enna Sona (From OK Jaanu"""")""""","Enna Sona (From OK Jaanu"""")""""","A.R. Rahman, Arijit Singh",Bollywood,2,Hindi,53
+69,"Channa Mereya (From Ae Dil Hai Mushkil"""")""""","Channa Mereya (From Ae Dil Hai Mushkil"""")""""","Pritam, Arijit Singh",Bollywood,3,Hindi,60
+70,"Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From Ae Dil Hai Mushkil""""]""""","Ae Dil Hai Mushkil (Club Mix By DJ Kiran Kamath) [From Ae Dil Hai Mushkil""""]""""","Pritam, Arijit Singh, Dj Kiran Kamath",Bollywood,3,Hindi,35
+71,Yaariyan (reprise),Cocktail,"Sunidhi Chauhan, Arijit Singh",Bollywood,4,Hindi,33
+72,Breakaway,Breakaway,Kelly Clarkson,Pop,3,English,64
+73,Toxic,In The Zone,Britney Spears,Pop,2,English,81
+74,Baby,My World 2.0,"Justin Bieber, Ludacris",Pop,2,English,80
+75,Around the World (La La La La La) - Radio Version,Planet Pop,"A Touch Of Class, Pete Konemann",Pop,2,English,67
+76,In Da Club,Get Rich Or Die Tryin',50 Cent,Hip-Hop,2,English,82
+77,Low (feat. T-Pain),Mail on Sunday,"Flo Rida, T-Pain",R&B,3,English,80
+78,Apologize - feat. One Republic,Shock Value,"Timbaland, OneRepublic",R&B,2,English,76
+79,Boom Boom Pow,THE E.N.D. (THE ENERGY NEVER DIES) [Deluxe Version],Black Eyed Peas,Club,3,English,68
+80,Promiscuous,Loose,"Nelly Furtado, Timbaland",Pop,3,English,81
+81,Say It Right,Loose,Nelly Furtado,Pop,3,English,78
+82,Viva La Vida,Viva La Vida or Death and All His Friends,Coldplay,Pop,3,English,84
+83,Rock Your Body,Justified,Justin Timberlake,Rock,3,English,76
+84,Heads Will Roll - A-Trak Remix,Heads Will Roll (A-Trak Remix),"Yeah Yeah Yeahs, A-Trak",Club,4,English,68
+85,More Than You Know,More Than You Know,Axwell /\ Ingrosso,Pop,3:23,English,79
+86,GUILTY,GUILTY,Keaton Rich,Pop,3:04,English,17
+87,"Ooh Wee (feat. Ghostface Killah, Nate Dogg, Trife & Saigon)",Here Comes The Fuzz,"Mark Ronson, Ghostface Killah, Nate Dogg, Trife, Saigon",Pop,3:30,English,55
+88,Outta Ya Mind,Outta Ya Mind,Nissa Seych,Pop,2:41,English,8
+89,Funky Sensation,Moonlight,"Disclosure, Gwen McCrae",Pop,3:36,English,48
+90,Back In Place,Back In Place,Magnus Ferrell,Pop,3:01,English,23
+91,Where Did You Go? (feat. MNEK),Where Did You Go (feat. MNEK),"Jax Jones, MNEK",Pop,2:58,English,81
+92,under the rug,under the rug,ryn,Pop,2:58,English,11
+93,Sick Kisses,Sick Kisses,Liam Barrack,Pop,3:34,English,10
+94,Never Together (Kastra Remix),Never Together (Kastra Remix),"GT_Ofice, Kastra",Pop,2:40,English,45
+95,Great Balls Of Fire,Great Balls Of Fire,Jerry Lee Lewis,Pop,2:33,English,63
+96,Perks,Perks,Bibi Gold,Pop,2:49,English,8
+97,(Your Love Keeps Lifting Me) Higher & Higher,Higher And Higher,Jackie Wilson,Pop,2:59,English,71
+98,Real,Real,Great Good Fine Ok,Pop,3:50,English,24
+99,Me and Julio Down by the Schoolyard,Paul Simon,Paul Simon,Pop,2:45,English,72
+100,Wait That's My Shirt,Ms. Sundown,The Thick,Pop,3:02,English,7
+101,I See a Dip,Medium Complications,Polyplastic,Pop,3:36,English,8
+102,Should She Stay,Should She Stay,Mother Culture,Pop,3:55,English,21
+103,Rhythm Of The Night,Rhythm Of The Night,DeBarge,Pop,3:49,English,64
+104,Hey!,Hey!,PEPTALK,Pop,2:29,English,31
+105,Mister Burns,Mister Burns,KYTES,Pop,2:35,English,50
+106,Brown Eyed Girl,Blowin' Your Mind!,Van Morrison,Club,3:03,English,79
+107,End of the Lost Summer,End of the Lost Summer,Gabe Lopez,Club,3:41,English,16
+108,Sing Hallelujah!,The Very Best Of 1990 - 1997,Dr. Alban,Club,4:01,English,5
+109,Starting Now,Badder Than The Bad Boys,Peyton Shay,Club,3:18,English,17
+110,September,"The Best Of Earth, Wind & Fire Vol. 1","Earth\, Wind & Fire",Rock,3:35,English,82
+111,La La La,La La La,"Superdream, Clem Beatz, Miae",House,2:59,English,37
+112,Gettin' Jiggy Wit It,Big Willie Style,Will Smith,Club,3:48,English,71
+113,Magic Man,Magic Man,"Balduin, Wolfgang Lohr, J Fitz",Rock,3:22,English,45
+114,Love Generation - Radio Edit,Love Generation (Radio Edit),"Bob Sinclar, Gary Pine",House,3:25,English,67
+115,Lovin' Yourself,Lovin' Yourself,Petting Zoo,Club,2:32,English,12
+116,All We Got,All We Got,LOVETA,Rock,3:54,English,23
+117,Blame It on the Boogie,Destiny,The Jacksons,House,3:34,English,70
+118,All I've Got to Say,All I've Got to Say,Jake Hays,Rock,3:57,English,27
+119,Plage,Star of Love,Crystal Fighters,Soul,3:50,English,51
+120,Counting Sheep,Counting Sheep,Harry Cleverdon,Rock,3:00,English,18
+121,White Sky,Contra,Vampire Weekend,House,2:59,English,44
+122,I Wish I Understood,I Wish I Understood,ghost.,Instrumental,3:04,English,9
+123,Blow That Smoke (feat. Tove Lo),Blow That Smoke (feat. Tove Lo),"Major Lazer, Tove Lo",Calm,3:43,English,43
+124,Too Good To End,Too Good To End,Qwiet Type,House,2:40,English,23
+125,Walk Of Life,Brothers In Arms,Dire Straits,Club,4:10,English,3
+126,Somebody,Somebody,Van Siian,Rock,3:18,English,6
+127,You & I,Cave Rave,Crystal Fighters,House,3:30,English,44
+128,The Other Way,The Other Way,"Bastiqe, Encure",Rock,2:35,English,26
+129,You Can Call Me Al,Graceland (25th Anniversary Deluxe Edition),Paul Simon,Soul,4:40,English,75
+130,What Doesn’t Kill You Mutates and Tries Again,What Doesn’t Kill You Mutates and Tries Again,iamnotshane,Rock,2:56,English,51
+131,Summer Feeling,Summer Feeling,"Matoma, Jonah Kagen",House,3:01,English,67
+132,W'adom,W'adom,"JVS, BRYAN THE MENSAH",Instrumental,3:35,English,21
+133,Cabin Fever,Cabin Fever,I am Korny,Calm,3:08,English,35
+134,A-Punk,Vampire Weekend,Vampire Weekend,Pop,2:18,English,69
+135,Devil in Disguise,RUBY,EMM,House,3:25,English,53
+136,Millionaire,Tasty,"Kelis, André 3000",Club,3:45,English,58
+137,CREW,CREW,Ju Kaia,Rock,2:51,English,28
+138,Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Radio Edit],"Daft Punk, Pharrell Williams, Nile Rodgers",House,4:08,English,81
+139,End All My Days,End All My Days,justyourfriend,Rock,3:11,English,24
+140,Let's Get Loud,On The 6,Jennifer Lopez,Soul,3:58,English,68
+141,Disco in Paris,Disco In Paris,Saint Rene,Rock,2:25,English,24
+142,Muchacha,Muchacha,"Gente De Zona, Becky G",House,3:21,English,57
+143,Lost in You,Lost in You,Curtis Lowe,Instrumental,4:07,English,21
+144,Dancing in the Moonlight,Onka's Big Moka,Toploader,Calm,3:53,English,77
+145,Mama Told Me,Mama Told Me,Emily + Shawn,House,2:28,English,7
+146,"Yo x Ti, Tu x Mi","Yo x Ti, Tu x Mi","ROSALÍA, Ozuna",Club,3:21,English,74
+147,Uber King,Uber King,Champion The Boy,Rock,3:46,English,10
+148,21,21,Zion Isaiah,House,3:08,English,12
+149,Wake Me Up,TRUE,Avicii,Rock,4:07,English,4
+150,Miami,Big Willie Style,Will Smith,Soul,3:18,English,70
+151,One More Day In Paradise,One More Day In Paradise,"Jimmy Cloud, Willy Sinclair",Rock,3:37,English,20
+152,Funky Town,Funky Town,ACRAZE,House,2:37,English,55
+153,Flowers Need Rain,Flowers Need Rain,"Preston Pablo, Banx & Ranx",Instrumental,2:48,English,72
+154,Blinding Lights,Blinding Lights,The Weeknd,Calm,3:22,English,18
+155,Glad to be Alive,Glad to be Alive,"Doppe & Kokke, Justin Erinn",House,3:03,English,24
+156,STAY (with Justin Bieber),F*CK LOVE 3: OVER YOU,"The Kid LAROI, Justin Bieber",Club,2:22,English,86
+157,Best Life,Best Life,KOYOTIE,Rock,3:00,English,22
+158,Life Is Strange,Life Is Strange,Matt Hartke,House,3:03,English,12
+159,Not For Me,Not For Me,Alyssa & Gia,Rock,2:52,English,23
+160,Like This,Like This,M I R Ó U X,Soul,3:05,English,38
+161,Daydream,Daydream,Sindresu,Rock,3:16,English,28
+162,Last Night a D.J. Saved My Life,A Night to Remember (Mixed By Tony Okungbowa & Jojoflores),Indeep,House,4:13,English,59
+163,Latch,Settle (Special Edition),"Disclosure, Sam Smith",Instrumental,4:16,English,75
+164,Life Goes On,Life Goes On,"Ricii Lompeurs, Francesco Ray",Calm,3:10,English,35
+165,Better Man,Better Man,PIB,House,2:36,English,36
+166,Rock DJ,Sing When You're Winning,Robbie Williams,Club,4:19,English,69
+167,Do You?,Do You?,"Cats-22, Ana Roze",Rock,2:56,English,11
+168,Family,World War Joy,"The Chainsmokers, Kygo",House,3:15,English,60
+169,Stick With You,Stick With You,Hunter Falls,Rock,3:13,English,6
+170,Jetlag,Jetlag,"Cymo, Treetalk",Soul,2:24,English,22
+171,Liki Tiki,Liki Tiki,"Kes, J Perry, Michael Brun",Rock,3:15,English,45
+172,We Were Liars (feat. Joel Sundkvist),We Were Liars (feat. Joel Sundkvist),"Janji, Joel Sundkvist",House,3:34,English,20
+173,Fall In Love,Fall In Love,Kenny Sharp,Instrumental,2:57,English,25
+174,Mr. Sandman - Electro Swing Mix,Mr. Sandman,"Betty Booom, La PetitOrchestre",Calm,2:54,English,37
+175,Long Way Down,Origin Stories,Coyote Island,House,2:53,English,11
+176,Make Swing Great Again,Make Swing Great Again,"Deladap, Wolfgang Lohr, Melinda Stoika",Club,3:24,English,31
+177,"Don't You Need Somebody (feat. Enrique Iglesias, R. City, Serayah & Shaggy)","Don't You Need Somebody (feat. Enrique Iglesias, R. City, Serayah & Shaggy)","RedOne, Enrique Iglesias, R. City, Serayah, Shaggy",Rock,3:28,English,57
+178,THATS WHAT I WANT,MONTERO,Lil Nas X,House,2:24,English,85
+179,Rapture - Avicii New Generation Mix,Queen of Clubs Trilogy: Onyx Edition,Nadia Ali,Rock,3:42,English,54
+180,Around the World (La La La La La) - Radio Version,Planet Pop,"A Touch Of Class, Pete Konemann",Soul,3:35,English,68
+181,Rise Up,Rise Up (The Remixes),Yves Larock,Rock,7:33,English,38
+182,Be My Lover,Best Of La Bouche feat. Melanie Thornton (feat. Melanie Thornton),La Bouche,House,4:01,English,67
+183,Roses - Imanbek Remix,Roses (Imanbek Remix),"SAINt JHN, Imanbek",Instrumental,2:57,English,80
+184,Your Love (9PM),Your Love (9PM),"ATB, Topic, A7S",Calm,2:30,English,62
+185,Play That Track,Play That Track,"Blinded Hearts, Lucifer",House,2:33,English,49
+186,Shake It,Shake It,B'Bach,Club,2:33,English,31
+187,Endorphyn,Extatic,Julian Meinke,Rock,6:49,English,2
+188,Dopamyn,Extatic,Julian Meinke,House,7:18,English,8
+189,It's a Game,It's a Game,Sharmystic,Rock,2:24,English,21
+190,It's Total Dangerous,It's Total Dangerous,Benjamin Stahl,Soul,5:27,English,8
+191,Progresiv - Ross Geldart Remix,Progresiv,"Smart Wave, Ross Geldart",Rock,6:50,English,2
+192,Right Now,Right Now,Achilles,House,3:09,English,6
+193,Rapture (Soulside Remix Made Edit Remastered) [feat. Nadia Ali],American Ambient (feat. Nadia Ali),"iio, Nadia Ali",Instrumental,3:52,English,32
+194,Rapture (Soulside Remix) [feat. Nadia Ali],"Rapture Reconstruction, Platinum Edition (feat. Nadia Ali)","iio, Nadia Ali",Calm,6:41,English,29
+195,Rapture - Avicii New Generation Mix,10 Years Armada,"Nadia Ali, Avicii",House,3:38,English,36
+196,Rapture (Armin Van Buuren Remix Remastered) [feat. Nadia Ali],Rapture (feat. Nadia Ali) [Armin Van Buuren Remix Remastered],"iio, Nadia Ali",Club,9:23,English,31
+197,Rapture - Gareth Emery Extended Mix,Queen of Clubs Trilogy: Diamond Edition (Extended Mixes),Nadia Ali,Rock,7:16,English,37
+198,Get Out - San Sebastian Mix,Get Out (San Sebastian Mix),"DJ Jose, ROMBE4T, San Sebastian",House,5:10,English,23
+199,Pressure (feat. Tove Lo),Pressure (feat. Tove Lo),"Martin Garrix, Tove Lo",Rock,2:24,English,69
+200,Tidal Wave,Tidal Wave,Jacob Browne,Soul,2:39,English,24
+201,Stay the Night,Stay the Night,"Karim Naas, KTK",Rock,3:16,English,8
+202,Ab To Forever,Ta Ra Rum Pum,"Vishal-Shekhar, KK, Shreya Ghoshal, Vishal Dadlani, Javed Akhtar",House,5:02,English,52
+203,Brothers Anthem,Brothers (Original Motion Picture Soundtrack),"Ajay-Atul, Vishal Dadlani",Instrumental,5:54,English,59
+204,Tujhe Bhula Diya,Anjaana Anjaani,"Mohit Chauhan, Shekhar Ravjiani, Shruti Pathak",Calm,4:39,English,68
+205,"Neele Neele Ambar Par - Version, 1",Neele Neele Ambar Par,Nitin Bali,House,3:54,English,38
+206,Megamix,Megamix,R.I.O.,Club,8:16,English,46
+207,Scooby Doo Pa Pa (Remix),Scooby Doo Pa Pa (Remix) - Single,"Dj Kass, Pitbull",Rock,2:57,English,39
+208,Scooby Doo Pa Pa,Scooby Doo Pa Pa,Dj Kass,House,2:26,English,55
+209,Boom Boom,Boom Boom,"RedOne, Daddy Yankee, French Montana, Dinah Jane",Rock,4:08,English,43
+210,DESIRE,DESIRE,VEME,Soul,3:41,English,4
+211,Ldn - SW11 Mix,Ldn,Valerio Reali,Rock,6:59,English,3
+212,Now or Never,Now or Never,Matisse & Sadko,House,2:52,English,34
+213,100 Percent,100 Percent,"Truevined, Mikeomania",Instrumental,2:32,English,4
+214,Bright Side,Bright Side,Mike Spinx,Calm,8:03,English,11
+215,Polaris,In The Wild / Polaris,Dee Montero,House,4:43,English,10
+216,Ouddance,Ouddance,Pharonic Electronic,Club,4:00,English,14
+217,Billie Jean,Thriller 25 Super Deluxe Edition,Michael Jackson,Rock,4:54,English,83
+218,Something Just Like This,Memories...Do Not Open,"The Chainsmokers, Coldplay",House,4:07,English,84
+219,Don't Let Me Down,Don't Let Me Down,"The Chainsmokers, Daya",Rock,3:28,English,80
+220,"Give Me Everything (feat. Ne-Yo, Afrojack & Nayer)",Planet Pit (Deluxe Version),"Pitbull, Ne-Yo, Afrojack, Nayer",Soul,4:12,English,81
+221,Let Me Love You,Encore,"DJ Snake, Justin Bieber",Rock,3:26,English,83
+222,New Rules,Dua Lipa (Deluxe),Dua Lipa,House,3:29,English,80
+223,Wake Me Up,TRUE,Avicii,Instrumental,4:07,English,4
+224,Sweet but Psycho,Sweet but Psycho,Ava Max,Calm,3:07,English,5
+225,Blame (feat. John Newman),Motion,"Calvin Harris, John Newman",House,3:33,English,76
+226,Cheap Thrills,This Is Acting,Sia,Club,3:32,English,78
+227,Havana (feat. Young Thug),Camila,"Camila Cabello, Young Thug",Rock,3:37,English,80
+228,24K Magic,24K Magic,Bruno Mars,House,3:46,English,79
+229,Can't Hold Us (feat. Ray Dalton),The Heist,"Macklemore & Ryan Lewis, Macklemore, Ryan Lewis, Ray Dalton",Rock,4:18,English,81
+230,Sucker,Sucker,Jonas Brothers,Soul,3:01,English,1
+231,Titanium (feat. Sia),Nothing but the Beat (Ultimate Edition),"David Guetta, Sia",Rock,4:05,English,80
+232,Low (feat. T-Pain),Mail on Sunday,"Flo Rida, T-Pain",House,3:51,English,80
+233,Sweet Dreams (Are Made of This) - Remastered,Sweet Dreams (Are Made Of This),"Eurythmics, Annie Lennox, Dave Stewart",Instrumental,3:37,English,82
+234,One Kiss (with Dua Lipa),One Kiss (with Dua Lipa),"Calvin Harris, Dua Lipa",Calm,3:35,English,88
+235,Indicator - Radio Edit,Indicator,Son Of A Preacher,House,4:12,English,1
+236,Phoenix Lights Crystallized,Phoenix Lights Crystallized,Aliens on Earth,Club,5:10,English,1
+237,From His Broken Bones,Asteria,Faderhead,Rock,5:12,English,29
+238,Harry's House,Modus,Nature of Wires,House,4:12,English,1
+239,Deja Vu (Initial D),Deja Vu (Initial D),Tsuko G.,Rock,4:11,English,55
+240,Stalker,Stalker,Analias,Soul,3:24,English,16
+241,Lost to the Night,Lost to the Night,C. SHIROCK,Rock,3:55,English,19
+242,All We Have Is This Moment,All We Have Is This Moment,C. SHIROCK,House,4:18,English,9
+243,Seratonik - Original Mix,Asmali Ep,Analogtune,Instrumental,8:11,English,8
+244,Asmali - Original Mix,Asmali Ep,Analogtune,Calm,7:49,English,4
+245,Zuma,Zuma,Poel,House,2:42,English,9
+246,Gravitas,Gravitas,Advakit,Club,3:18,English,14
+247,When It All Ends,When It All Ends,Initial Eyes,Rock,5:40,English,3
+248,Evil Ghosts,Evil Ghosts,Packo Gualandris,House,7:19,English,5
+249,Maria,Maria,Coopsmusic_,Rock,4:00,English,8
+250,Drive,Drive,Zantzo,Soul,3:18,English,7
+251,Turn Me On (feat. Vula),Turn Me On (feat. Vula),"Riton, Oliver Heldens, Vula",Rock,3:28,English,71
+252,On My Own,On My Own,ManyFew,House,2:51,English,2
+253,Ego Overdose,Ego Overdose,"Besomorph, EMM",Instrumental,2:41,English,28
+254,Crystal,Crystal,Aliens on Earth,Calm,4:40,English,1
+255,Boxes,Boxes,Static Cycle,House,3:33,English,38
+256,Wolf,Wolf,Static Cycle,Club,3:00,English,27
+257,Aesthetic Arrest - Live,Evanoff Live,Evanoff,Rock,7:52,English,4
+258,Anotha Brick - Live,Evanoff Live,Evanoff,House,6:11,English,4
+259,Crowd Control - Live,Evanoff Live,Evanoff,Rock,6:22,English,4
+260,Crawl Out of Love - Live,Evanoff Live,Evanoff,Soul,3:57,English,3
+261,Stealing Fire,Stealing Fire,"Bass Physics, Evanoff",Rock,3:41,English,21
+262,Dahlia,Dahlia,Evanoff,House,4:19,English,12
+263,Allium,Allium,Evanoff,Instrumental,4:48,English,5
+264,Dreamsters,Dreamsters,Evanoff,Calm,4:21,English,30
+265,Golden Hour,Golden Hour,Evanoff,House,4:33,English,19
+266,On My Way,On My Way,"Teddy Beats, Mon RovÎa",Club,3:15,English,21
+267,Physical,Physical,Dua Lipa,Rock,3:14,English,47
+268,Don't Wanna Know - Radio Edit,Don't Wanna Know,James iD,House,4:09,English,6
+269,Don't Wanna Know - Zaeden Remix,Don't Wanna Know (Zaeden Remix),"Maroon 5, Kendrick Lamar, Zaeden",Rock,3:34,English,23
+270,WTF Is EDM,WTF Is EDM,Sorry Im Not,Soul,3:23,English,16
+271,Chaos,Chaos,"Sorry Im Not, Hurtz",Rock,2:51,English,13
+272,Blinding Lights,Blinding Lights,The Weeknd,House,3:22,English,18
+273,Heart Wide Open,Give It All Away,Matt Moore,Instrumental,3:38,English,15
+274,Raveolution,Raveolution,"Sandro Silva, Graham Bell",Calm,2:44,English,51
+275,Fire & Rain,Fire & Rain,"LOOPERS, IYONA",House,3:07,English,24
+276,Fading,Fading - Single,Matt Moore,Club,3:34,English,26
+277,The Afterlife,The Afterlife,BIGMOO,Rock,3:15,English,21
+278,Winning as Truth,Trapdoor Social,Trapdoor Social,House,3:09,English,23
+279,rockstar (feat. 21 Savage),beerbongs & bentleys,"Post Malone, 21 Savage",Rock,3:38,English,84
+280,Ready or Not,Ready or Not,October Sky,Soul,3:36,English,10
+281,Sweet Dreams (Are Made of This),Sweet Dreams (are Made of This),"Winati, Moonshine, BELLMAN, Louise CS",Rock,2:57,English,58
+282,Tokyo Drift,Tokyo Drift,KVSH,House,3:43,English,3
+283,Hail to the King,Hail to the King,Avenged Sevenfold,Instrumental,5:06,English,76
+284,Afterlife,Avenged Sevenfold,Avenged Sevenfold,Calm,5:52,English,69
+285,Cliffs Of Dover - Instrumental,Ah Via Musicom,Eric Johnson,Pop,4:10,English,58
+286,Numb / Encore,Numb / Encore: MTV Ultimate Mash-Ups Presents Collision Course,"JAY-Z, Linkin Park",House,3:26,English,78
+287,United,United,"Armin van Buuren, Vini Vici, Alok, Zafrir",Club,3:37,English,20
+288,After Dark (feat. Fiora),After Dark (feat. Fiora),"Seven Lions, Blastoyz, Fiora",Rock,3:50,English,47
+289,Chandelier - Cutmore Club Remix,Chandelier (Remixes),"Sia, Richard Cutmore",House,5:08,English,28
+290,Thriller - Instrumental,Thriller 25 Super Deluxe Edition,Michael Jackson,Rock,5:58,English,37
+291,Beat It,"HIStory - PAST, PRESENT AND FUTURE - BOOK I",Michael Jackson,Soul,4:18,English,55
+292,Scream,"HIStory - PAST, PRESENT AND FUTURE - BOOK I","Michael Jackson, Janet Jackson",Rock,4:38,English,57
+293,Beat It / State of Shock - Immortal Version,Immortal,"Michael Jackson, The Jacksons, Mick Jagger, Kevin Antunes",House,3:09,English,37
+294,Thriller - Immortal Version,Immortal,"Michael Jackson, Kevin Antunes",Instrumental,3:38,English,42
+295,Smooth Criminal - Immortal Version,Immortal,Michael Jackson,Calm,2:00,English,56
+296,Thriller,Michael Jackson's This Is It,Michael Jackson,Pop,5:57,English,60
+297,Slave to the Rhythm - Audien Remix Radio Edit,Slave to the Rhythm (Audien Remix Radio Edit),"Michael Jackson, Audien",Pop,3:14,English,32
+298,Sisya,2009,"Abhishek Hegde, Sourav Prakash",Hip-Hop,3:00,English,97
+299,Jai Ho,Slumdog Millionaire,A. R. Rehman,Pop,3:32,Hindi,99
+300,Kangna,Unda Da Influence,Dr. Zeus,Hip-Hop,3:30,Punjabi,89
+301,Proper Patola,Proper Patola,Diljit Dosanjh,Hip-Hop,2:30,Punjabi,90
